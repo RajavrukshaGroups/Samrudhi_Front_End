@@ -1,9 +1,11 @@
 .projects-container-new {
   min-height: 0vh;
-  background: white;
+  /* background: white; */
   padding: 2rem;
   font-family: Arial, sans-serif;
-  margin-top: 1rem;
+  /* background-color: bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329]; */
+    background: linear-gradient(to bottom right, #4a5240, #3d4436, #2d3329);
+
 }
 
 .projects-content {
@@ -32,9 +34,12 @@
   flex: 1 1 calc(50% - 2rem);
   max-width: 480px;
   padding: 15px;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 10px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.2); /* same as bg-black/20 */
+  backdrop-filter: blur(4px); /* same as backdrop-blur-sm */
+
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
@@ -64,7 +69,7 @@
 
 .project-description {
   font-size: 17px;
-  color: #333;
+  color:#d4a843;
   margin-bottom: 0.5rem;
 }
 

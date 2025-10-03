@@ -11,9 +11,9 @@ import DHSprojects from "../../components/assets/dhs_projectsimg.jpg";
 
 const OngoingProjects = () => {
   return (
-    <div className="projects-container-new -mt-40 responsive">
+    <div className="projects-container-new -mt-40 responsive ">
       <div className="flex flex-col overflow-hidden animate-threeD-container">
-        <h1 className="projects-title">Our Ongoing Projects</h1>
+        <h1 className=" text-1xl font-bold text-[#d4a843] md:text-6xl justify-center flex">Our Ongoing Projects</h1>
       </div>
       <div className="projects-wrapper">
         <div className="project-card">
@@ -47,7 +47,7 @@ const OngoingProjects = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <h2 className="project-subtitle syl-retreat-title">Sylvan Retreat</h2>
+              <h2 className="project-subtitle syl-retreat-title text-white">Sylvan Retreat</h2>
             </FadeContent>
             <p className="project-description">
               Farmland is not just a dream; it's a sound financial investment
@@ -94,7 +94,7 @@ const OngoingProjects = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <h2 className="project-subtitle">Aarike</h2>
+              <h2 className="project-subtitle text-white">Aarika</h2>
             </FadeContent>
             <p className="project-description">
               An exclusive premium residential project designed for peaceful living with
@@ -140,7 +140,7 @@ const OngoingProjects = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <h2 className="project-subtitle">DHS Projects</h2>
+              <h2 className="project-subtitle text-white">DHS Projects</h2>
             </FadeContent>
             <p className="project-description">
              Defence Habitat makes your real estate dreams a reality with trusted experience and services tailored to your needs.

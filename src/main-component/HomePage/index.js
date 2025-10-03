@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import { updateMetaTags } from "../../utils/updateMetaTags.js";
 import Loader from "../../components/Loader/loader.jsx";
 import "../AboutPage/loading.css";
+import KeyConcept from "../../components/keyConcept/keyConcept.jsx";
 const Hero = React.lazy(() => import("../../components/hero"));
 const About = React.lazy(() => import("../../components/about"));
 const Container = React.lazy(() => import("../Status/status.jsx"));
@@ -48,7 +49,7 @@ const HomePage = () => {
         />
         <meta property="og:url" content={ogUrl} />
       </Helmet>
-      <Header />
+      <Header/>
       <Suspense
         fallback={
           <div>
@@ -56,9 +57,10 @@ const HomePage = () => {
           </div>
         }
       >
-        <Hero />
+        <Hero/>
         <Container />
-        <About text={""} readMore="read more" />
+        {/* <About text={""} readMore="read more" /> */}
+        <KeyConcept  />
         <OngoingProjects />
         <ServiceSection />
         <Testimonial />
