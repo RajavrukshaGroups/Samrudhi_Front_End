@@ -34,6 +34,7 @@ const  KeyConcept=()=> {
       subtitle: "court",
     },
   ]
+  
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329] ">
@@ -55,6 +56,7 @@ const  KeyConcept=()=> {
             <h1 className="text-4xl lg:text-5xl xl:text-6xl font-light text-white mb-12 lg:mb-16 leading-tight">
               Making living spaces affordable
             </h1>
+
             {/* Features Grid */}
             <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">

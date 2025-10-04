@@ -97,17 +97,18 @@ export default function ServiceSection() {
   }, [])
 
   return (
+
     <>
+    <div className="projects-container-new">
       <FadeContent
         blur={true}
         duration={900}
         easing="ease-out"
-        initialOpacity={0}
-      >
-        <h2 className="project-subtitle justify-center flex ">Our Services</h2>
+        initialOpacity={0} >
+        <h2 className="project-subtitle justify-center flex text-white">Our Services</h2>
       </FadeContent>
-      
-      <div ref={containerRef} className="w-full max-w-7xl mx-auto pt-14 pb-20 ">
+     
+      <div ref={containerRef} className="projects-container-new w-full max-w-7xl mx-auto pt-14 pb-20 ">
         {/* Desktop Layout - 4 Cards Grid */}
         <div className="hidden lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8">
           {services.map((service, index) => (
@@ -263,6 +264,8 @@ export default function ServiceSection() {
           ))}
         </div>
       </div>
+      
+          </div>
     </>
   )
 }
