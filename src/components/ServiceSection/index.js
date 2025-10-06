@@ -97,18 +97,17 @@ export default function ServiceSection() {
   }, [])
 
   return (
-
     <>
-    <div className="projects-container-new">
+    <div className="projects-container-new ">
       <FadeContent
         blur={true}
         duration={900}
         easing="ease-out"
         initialOpacity={0} >
-        <h2 className="project-subtitle justify-center flex text-white">Our Services</h2>
+        <h2 className="project-subtitle justify-center flex ">Our Services</h2>
       </FadeContent>
      
-      <div ref={containerRef} className="projects-container-new w-full max-w-7xl mx-auto pt-14 pb-20 ">
+      <div ref={containerRef} className="w-full max-w-7xl mx-auto pt-3 pb-16 ">
         {/* Desktop Layout - 4 Cards Grid */}
         <div className="hidden lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8">
           {services.map((service, index) => (
@@ -120,7 +119,7 @@ export default function ServiceSection() {
             >
               {/* Main Card */}
               <div
-                className={`relative bg-gradient-to-br ${service.cardGradient} rounded-2xl p-6 border border-gray-200/50 shadow-lg hover:shadow-2xl transition-all duration-500 group-hover:scale-105 group-hover:shadow-xl ${service.shadowColor} backdrop-blur-sm h-full flex flex-col`}
+               className={`relative bg-gradient-to-br ${service.cardGradient} rounded-2xl p-6 border border-green-400 shadow-md hover:shadow-green-400/30 hover:shadow-2xl transition-all duration-500 group-hover:scale-105 backdrop-blur-sm h-full flex flex-col`}
               >
                 {/* Header with Icon and Title */}
                 <div className="flex items-start justify-between mb-4">
@@ -183,7 +182,6 @@ export default function ServiceSection() {
                     </div>
                   ))}
                 </div>
-
                 {/* Hover Effect Border */}
                 <div
                   className={`absolute inset-0 rounded-2xl bg-gradient-to-r ${service.bgGradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 -z-10`}
@@ -264,8 +262,7 @@ export default function ServiceSection() {
           ))}
         </div>
       </div>
-      
-          </div>
+    </div>
     </>
   )
 }

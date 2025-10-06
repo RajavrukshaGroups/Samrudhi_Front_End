@@ -21,7 +21,7 @@ const ProjectList = () => {
     }
   };
   return (
-    <section className="projects-area projects-page-area">
+    <section className="projects-area projects-page-area ">
       <div className="container">
         <div className="row">
           <div className="col-md-12 mx-auto">

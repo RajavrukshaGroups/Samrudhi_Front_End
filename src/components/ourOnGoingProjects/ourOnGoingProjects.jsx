@@ -11,9 +11,9 @@ import DHSprojects from "../../components/assets/dhs_projectsimg.jpg";
 
 const OngoingProjects = () => {
   return (
-    <div className="projects-container-new -mt-40 responsive ">
+    <div className="projects-container-new mt-0 responsive ">
       <div className="flex flex-col overflow-hidden animate-threeD-container">
-        <h1 className=" text-1xl font-bold text-[#d4a843] md:text-6xl justify-center flex">Our Ongoing Projects</h1>
+        <h1 className=" text-1xl font-bold project-subtitle md:text-6xl justify-center flex ">Our Ongoing Projects</h1>
       </div>
       <div className="projects-wrapper">
         <div className="project-card">
@@ -64,9 +64,7 @@ const OngoingProjects = () => {
         </div>
 
         <div className="project-card">
-          {/* <div className="project-image-container">
-            <img src={PlumeriaImg} alt="Plumeria" className="project-image" />
-          </div> */}
+         
           <div className="flex flex-col overflow-hidden">
             <ContainerScroll
               titleComponent={

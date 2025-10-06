@@ -83,7 +83,7 @@ export default function Testimonials() {
         {/* Header */}
         <div className="mx-auto mb-16 max-w-4xl p-8 text-center">
           <p className="mb-4 text-sm font-medium uppercase tracking-wider text-white">Hear From</p>
-          <h2 className="mb-6 text-5xl font-bold text-[#d4a843] md:text-6xl">Our Happy Customers !</h2>
+          <h2 className="mb-6 text-5xl font-bold project-subtitle md:text-6xl">Our Happy Customers !</h2>
         </div>
 
         {/* Testimonials Grid */}

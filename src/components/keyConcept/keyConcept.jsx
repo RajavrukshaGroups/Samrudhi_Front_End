@@ -1,5 +1,5 @@
 // import Image from "next/image"
-import AboutImg from "../../components/assets/homeforsamrudhi.jpg";
+import AboutImg from "../../components/assets/aboutusimage.jpg";
 
 const  KeyConcept=()=> {
   const features = [
@@ -33,6 +33,16 @@ const  KeyConcept=()=> {
       title: "Community Engagement",
       subtitle: "court",
     },
+    {
+      number: "07.",
+      title: "Sustainability and Responsibility",
+      subtitle: "court",
+    },
+    {
+      number: "08.",
+      title: "Continuous Improvement",
+      subtitle: "court",
+    },
   ]
   
 
@@ -53,12 +63,12 @@ const  KeyConcept=()=> {
 
           <div className="max-w-2xl w-full ml-8 lg:ml-12">
             {/* Heading */}
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-light text-white mb-12 lg:mb-16 leading-tight">
-              Making living spaces affordable
+            <h1 className="project-subtitle-keyConcept  text-4xl lg:text-5xl xl:text-6xl font-light  mb-12 lg:mb-16 leading-tight">
+              Empowering Values for a Better Future
             </h1>
 
             {/* Features Grid */}
-            <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
+            <div className=" bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
                 {features.map((feature, index) => (
                   <div key={index} className="group cursor-pointer transition-all duration-300 hover:translate-x-2">
@@ -67,8 +77,8 @@ const  KeyConcept=()=> {
                         {feature.number}
                       </span>
                       <div className="transition-all duration-300 group-hover:translate-x-1">
-                        <h3 className="text-gray-900 font-medium text-base leading-snug">{feature.title}</h3>
-                        <p className="text-gray-900 font-medium text-base leading-snug">{feature.subtitle}</p>
+                        <h3 className="text-bla font-medium text-base leading-snug">{feature.title}</h3>
+                        {/* <p className="text-gray-900 font-medium text-base leading-snug">{feature.subtitle}</p> */}
                       </div>
                     </div>
                   </div>
@@ -82,10 +92,10 @@ const  KeyConcept=()=> {
         <div className="relative h-[400px] lg:h-auto overflow-hidden group">
           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105 ">
             <img
-              src={AboutImg}
+              src={'https://images.pexels.com/photos/20580717/pexels-photo-20580717/free-photo-of-ivory-cottage-and-green-bushes-in-the-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'}
               alt="Modern living space with balcony featuring two people relaxing "
               fill
-              className="object-cover object-center"
+              className="object-cover object-center pr-11 border-r pt-5"
               priority
             />
           </div>

@@ -23,11 +23,15 @@
 
 /* Flex container for two projects */
 .projects-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 2rem;
+   padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+   /* flex-wrap: wrap;
+   margin-top: 1rem; */
+   /* justify-content: center; */
 }
 
 .project-card {
@@ -59,12 +63,20 @@
   border-radius: 10px;
 }
 
+
 .project-subtitle {
   font-family: Arial, Helvetica, sans-serif;
-  color: #004d40;
+  color:#fdd372;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0rem;
+}
+.project-subtitle-keyConcept {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#fdd372;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
 }
 
 .project-description {

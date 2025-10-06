@@ -58,9 +58,9 @@ const HomePage = () => {
         }
       >
         <Hero/>
-        <Container />
         {/* <About text={""} readMore="read more" /> */}
         <KeyConcept  />
+        <Container />
         <OngoingProjects />
         <ServiceSection />
         <Testimonial />
