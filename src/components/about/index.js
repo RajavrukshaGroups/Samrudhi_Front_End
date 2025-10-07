@@ -163,7 +163,7 @@ const About = ({ text, readMore }) => {
                       <div ref={containerRef} style={{ position: "relative" }}>
                         <VariableProximity
                           label={
-                            "To be the premier agency for sustainable and profitable farm land investments, shaping the future of agriculture."
+                            "As aspiring trailblazers in innovative real estate development, we seek to integrate avant-garde design, sustainability, and strategic planning to create environments that inspire connection through environmentally conscious building technologies, nurture growth, and foster investments that yield perpetual growth and prosperity."
                           }
                           className={"variable-proximity-demo"}
                           fromFontVariationSettings="'wght' 350, 'opsz' 9"
@@ -213,7 +213,7 @@ const About = ({ text, readMore }) => {
                       <div ref={containerRef} style={{ position: "relative" }}>
                         <VariableProximity
                           label={
-                            "We provide expert real estate services, guiding clients in acquiring, selling, and investing in farm land with a focus on sustainability and long-term growth."
+                            "At Samrudhi, our mission is to be the catalyst for realizing the dreams and aspirations of our clients, creating value through expert guidance, innovative solutions, and unwavering integrity. We are committed to redefining the real estate experience by providing personalized service, fostering community growth, and embracing sustainable practices."
                           }
                           className={"variable-proximity-demo"}
                           fromFontVariationSettings="'wght' 350, 'opsz' 9"

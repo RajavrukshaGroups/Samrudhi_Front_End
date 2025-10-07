@@ -30,7 +30,7 @@ const Navbar = () => {
           Home
         </a>
         <a
-          href="/"
+          href="/about"
           className="text-white font-medium px-4 py-2 transition hover:text-yellow-300"
         >
           About

@@ -48,6 +48,7 @@ const PageTitle = (props) => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right center",
+        
       }}
     >
       {/* Render buttons only if both bgImg1 and bgImg2 exist */}
