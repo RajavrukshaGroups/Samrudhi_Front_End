@@ -14,10 +14,9 @@ const Animation = React.lazy(() =>
 );
 const Footer = React.lazy(() => import("../../components/footer"));
 const aboutText = `
-  At Rajavruksha, we truly appreciate the wonders of nature and understand 
-  the tranquility it can bring to one's existence. Our purpose is to turn 
-  your aspiration of owning a plot of land into an experience by providing 
-  selected and well-maintained farm plots in the scenic surroundings of Bangalore.
+  At Samrudhi, we are driven by a vision: to create exceptional spaces that inspire, endure, and
+elevate the way people live and invest. We are committed to shaping inspired living through
+visionary developments and bespoke real estate solutions. 
 `;
 
 const AboutPage = () => {

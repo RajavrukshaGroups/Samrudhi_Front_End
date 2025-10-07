@@ -45,7 +45,7 @@ const About = ({ text, readMore }) => {
                   initialOpacity={0}
                 >
                   <h2 className="explore-title text-capitalize ">
-                    We explore to discover your optimal selection
+                    We strive to uncover the perfect choice for you
                   </h2>
                 </FadeContent>
                 <div>
@@ -60,69 +60,8 @@ const About = ({ text, readMore }) => {
                   alignItems: "center",
                 }}
               >
-                <div className="features-list-wrapper">
-                  <ul className="features-list">
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Innovative Concepts
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />
-                      Value For Money Projects
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Expert Team Members
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Affordable Quality Services
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Hassle Free Process
-                    </li>
-                  </ul>
-                  <div className="mobile-read-more-wrapper">
-                    <Link to="/about">
-                      {!!readMore && (
-                        <button className="read-more-button">
-                          <ShinyText
-                            text="Read More"
-                            disabled={false}
-                            speed={3}
-                            className="project-button-wrapper"
-                          />
-                        </button>
-                      )}
-                    </Link>
-                  </div>
-                </div>
-                <div className="experience-box">
-                  <h2 className="experience-years">
-                    <span className="counter">
-                      <CountUp start={0} end={6} duration={2} />+
-                    </span>
-                  </h2>
-                  <p className="experience-text">
-                    Years of <br /> experience
-                  </p>
-                </div>
+                
+             
               </div>
             </div>
           </div>
