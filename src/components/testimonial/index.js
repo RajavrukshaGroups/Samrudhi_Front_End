@@ -3,35 +3,37 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
 import PngLeaf from "../../components/assets/_Pngtree_leaf_logo_design_icon_vector_4400175-removebg-preview.png"
-
+import LadyImage from "../../components/assets/lady.jpg"
+import MenImage from "../../components/assets/menimg.jpg"
 const testimonials = [
   {
     id: 1,
-    name: "Suresh N",
-    role: "Property Consultant",
+    name: "Sneha Patel",
+    role: "Flat Owner",
     image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
-    text: "Our experience with Rajavruksha was outstanding. Their dedicated team ensured a smooth journey to our farm ownership.",
+    text: "The quality of construction and attention to detail exceeded my expectations. Samrudhi Properties delivered exactly what they promised — on time and with complete transparency",
   },
   {
     id: 2,
-    name: "Manasa V",
-    role: "Real Estate Investor",
-    image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
-    text: "Rajavruksha made our dream of owning a farm a reality. Their transparent dealings and commitment is outstanding and remarkable.",
+    name: "Ramesh Kumar",
+    role: "Homebuyer",
+    image: LadyImage,
+    text: "Buying my dream home with Samrudhi Property Developers was the best decision ever. Their team guided me through every step, ensuring clear communication and timely updates. Truly professional and trustworthy",
   },
   {
     id: 3,
-    name: "Roshan Kumar",
-    role: "Land Surveyor",
-    image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
-    text: "Exceptional service and integrity define Rajavruksha. The process of buying our farm was seamless, satisfying and gratifying.",
+    name: "Deepak Reddy",
+    role: "New Homeowner",
+    image: MenImage,
+    text: "From site visits to registration, everything was smooth and well-organized. The staff were courteous and knowledgeable, making my first purchase worry-free!",
   },
   {
     id: 4,
-    name: "Smitha",
-    role: "Property Manager",
-    image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
-    text: "Choosing Rajavruksha for our farm investment was a wise decision. Professionalism and trustworthiness set them apart.",
+    name: "Meera Nair",
+    role: "Real Estate Investor",
+    // image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
+    image: LadyImage,
+    text: "I’ve invested in multiple projects, and Samrudhi Property Developers stand out for their commitment to quality and customer satisfaction. Highly recommended for long-term investments",
   },
 ]
 

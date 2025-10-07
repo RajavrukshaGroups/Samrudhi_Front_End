@@ -45,10 +45,9 @@ const  KeyConcept=()=> {
     },
   ]
   
-
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329] ">
-      <div className="grid lg:grid-cols-2 min-h-">
+      <div className="grid lg:grid-cols-2 min-h-[450px]">
         {/* Left Section */}
         <div className="relative flex items-center justify-center p-8 lg:p-16">
           {/* Vertical "FEATURES" text */}
@@ -66,7 +65,6 @@ const  KeyConcept=()=> {
             <h1 className="project-subtitle-keyConcept  text-4xl lg:text-5xl xl:text-6xl font-light  mb-12 lg:mb-16 leading-tight">
               Empowering Values for a Better Future
             </h1>
-
             {/* Features Grid */}
             <div className=" bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
@@ -87,7 +85,6 @@ const  KeyConcept=()=> {
             </div>
           </div>
         </div>
-
         {/* Right Section - Image */}
         <div className="relative h-[400px] lg:h-auto overflow-hidden group">
           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105 ">

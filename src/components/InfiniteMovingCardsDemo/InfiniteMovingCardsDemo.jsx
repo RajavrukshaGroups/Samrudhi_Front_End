@@ -19,26 +19,26 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "Choosing Rajavruksha for our farm investment was a wise decision. Professionalism and trustworthiness set them apart.",
-    name: "Smitha",
-    title: "Property Manager",
+      "The quality of construction and attention to detail exceeded my expectations. Samrudhi Properties delivered exactly what they promised — on time and with complete transparency",
+    name: "Sneha Patel",
+    title: "Flat Owner",
   },
   {
     quote:
-      "Our experience with Rajavruksha was outstanding. Their dedicated team ensured a smooth journey to our farm ownership.",
-    name: "Suresh N",
-    title: "Property Consultant",
+      "Buying my dream home with Samrudhi Property Developers was the best decision ever. Their team guided me through every step, ensuring clear communication and timely updates. Truly professional and trustworthy",
+    name: "Ramesh Kumar",
+    title: "Homebuyer",
   },
   {
     quote:
-      "Rajavruksha made our dream of owning a farm a reality. Their transparent dealings and commitment is outstanding and remarkable.",
-    name: "Manasa V",
+      "From site visits to registration, everything was smooth and well-organized. The staff were courteous and knowledgeable, making my first purchase worry-free!",
+    name: "Deepak Reddy",
+    title: "New Homeowner",
+  },
+  {
+    quote:
+      "I’ve invested in multiple projects, and Samrudhi Property Developers stand out for their commitment to quality and customer satisfaction. Highly recommended for long-term investments",
+    name: "Meera Nair",
     title: "Real Estate Investor",
-  },
-  {
-    quote:
-      "Exceptional service and integrity define Rajavruksha. The process of buying our farm was seamless, satisfying and gratifying.",
-    name: "Roshan Kumar",
-    title: "Land Surveyor",
   },
 ];

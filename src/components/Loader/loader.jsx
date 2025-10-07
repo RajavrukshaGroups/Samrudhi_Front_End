@@ -1,9 +1,10 @@
 import React from "react";
 import { Oval } from "react-loader-spinner";
-import RRPL_logo from "../../components/assets/RRPL_loader-removebg-new.png";
+// import RRPL_logo from "../../components/assets/RRPL_loader-removebg-new.png";
+import RRPL_logo from "../../components/assets/samrudhi_logo_half_cut.png";
 import "./loader.css";
 
-const Loader = ({ color = "#4fa94d", secondaryColor = "#4fa94d", logo }) => {
+const Loader = ({ color = "#006400", secondaryColor = "#4fa94d", logo }) => {
   return (
     <div
       className={`loader ${logo ? "loader-with-logo" : "loader-default-bg"}`}

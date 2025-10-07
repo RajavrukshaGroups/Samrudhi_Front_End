@@ -1,10 +1,11 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import { Helmet } from "react-helmet";
-import Header from "../../components/header";
+// import Header from "../../components/header";
 import bg from "../../components/assets/project_page.webp";
 import { updateMetaTags } from "../../utils/updateMetaTags";
 import "./loading.css";
 import Loader from "../../components/Loader/loader";
+import Navbar from "../../components/navbar/navbar";
 
 const About = React.lazy(() => import("../../components/about"));
 const PageTitle = React.lazy(() => import("../../components/pagetitle"));
@@ -52,7 +53,8 @@ const AboutPage = () => {
         />
       </Helmet>
 
-      <Header />
+      {/* <Header /> */}
+      <Navbar />
       <Suspense
         fallback={
           <div>

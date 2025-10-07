@@ -89,7 +89,7 @@ const RoutesWithLoader = () => {
         return (
           <>
           <div>
-              <FloatingIcons />
+              {/* <FloatingIcons /> */}
                <Router>
             {/* <button onClick={notify}>Notify!</button> */}
               {/* <TawkMessengerReact

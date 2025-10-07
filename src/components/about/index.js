@@ -29,7 +29,7 @@ const About = ({ text, readMore }) => {
         backgroundImage: `url(${AboutBgImg})`,
       }}
     >
-      <div className="container">
+      <div className="container ">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-6">
             <div
