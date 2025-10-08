@@ -90,7 +90,7 @@ const PageTitle = (props) => {
                   easing="ease-out"
                   initialOpacity={0}
                 >
-                  <h1>{props.PageTitle}</h1>
+                  <h1 style={{color:'#FDE047'}}>{props.PageTitle}</h1>
                 </FadeContent>
               )}
 

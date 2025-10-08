@@ -2,68 +2,115 @@
 
 import { ServiceCard } from "../../components/services-atm-cards/servicsCards"
 
-const  ServicesSection=()=> {
+const ServicesSection = () => {
   return (
-    <section className="bg-cream">
-      <div className="mx-auto max-w-6xl px-4 py-12 md:py-20">
-        <div className="grid gap-10 md:grid-cols-2 md:gap-12 items-start">
-          {/* LEFT COLUMN */}
-          <div>
-            <div className="mb-4 inline-flex items-center gap-2 text-sm text-muted-foreground">
-              <span aria-hidden className="inline-block h-2 w-2 rounded-full bg-foreground/80" />
-              <span>Latest Service</span>
-            </div>
+    <section class="relative isolate overflow-hidden py-12 sm:py-16 lg:py-20">
+      {/* Background image */}
+      <img
+        // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-REy79ssk5PDrrUm3nZMTtJuMolS0gw.png"
+        alt="Warm sunset sky behind the solar solutions section"
+        class="absolute inset-0 -z-10 h-full w-full object-cover"
+      />
+      {/* Dark overlay for readability */}
+      <div class="absolute inset-0 -z-10 bg-black/50"></div>
 
-            <h1 className="text-balance text-4xl font-extrabold leading-tight md:text-6xl">
-              Clean Energy, Bright Future!
-            </h1>
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Headline */}
+        <h2 class="text-center text-pretty font-extrabold tracking-tight text-white leading-tight text-4xl sm:text-5xl lg:text-6xl">
+          Comprehensive Solar Solutions<br class="hidden sm:block" />
+          Tailored to Your Needs
+        </h2>
 
-            <p className="mt-4 max-w-prose text-muted-foreground leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.
-            </p>
+        {/* Card tray (subtle rounded container behind cards) */}
+        <div class="mt-8 sm:mt-10 rounded-[28px] border border-white/40 bg-white/10 p-3 sm:p-4">
+          {/* Cards grid - Changed to flex for single row */}
+          <div class="flex flex-row gap-4 sm:gap-6 overflow-x-auto">
+            {/* Card 1 */}
+            <article class="min-w-[280px] flex-1 rounded-[28px] bg-[#18473F] p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
+              <div class="flex items-center justify-center">
+                {/* House icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="h-14 w-14 text-[#F3C64E]" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l9-7.5 9 7.5M4.5 10.5V21h5.25v-6h4.5v6H19.5V10.5" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
+                Residential Solar<br />Panels
+              </h3>
+              <p class="mt-4 text-center text-base leading-relaxed text-white/85">
+                Amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div class="mt-8 flex justify-center">
+                <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
+                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                </a>
+              </div>
+            </article>
 
-            <button className="mt-8 inline-flex items-center rounded-full bg-accent-yellow px-6 py-3 text-sm font-medium text-brand hover:brightness-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent-yellow/60">
-              View All Service{" "}
-              <span aria-hidden className="ml-2">
-                →
-              </span>
-            </button>
-          </div>
+            {/* Card 2 */}
+            <article class="min-w-[280px] flex-1 rounded-[28px] bg-[#18473F] p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
+              <div class="flex items-center justify-center">
+                {/* Building icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="h-14 w-14 text-[#F3C64E]" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M6 21V5.25A1.5 1.5 0 0 1 7.5 3.75h6A1.5 1.5 0 0 1 15 5.25V21M9.75 8.25h1.5m-1.5 3h1.5m-1.5 3h1.5M15 9.75h3v8.25" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
+                Commercial Solar<br />Solutions
+              </h3>
+              <p class="mt-4 text-center text-base leading-relaxed text-white/85">
+                The sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div class="mt-8 flex justify-center">
+                <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
+                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                </a>
+              </div>
+            </article>
 
-          {/* RIGHT COLUMN - STACKED ATM CARDS */}
-          <div aria-label="Service cards" className="relative">
-            <div className="relative">
-              <ServiceCard
-                title="Client-Centric Excellence"
-                description="Our foremost commitment is to our clients. We strive to understand their unique needs and deliver unparalleled service, ensuring a seamless and rewarding real estate journey."
-                className="z-30"
-              />
-              <ServiceCard
-                title="Community Building"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar."
-                className="-mt-6 z-20"
-              />
-              <ServiceCard
-                title="Innovation and Adaptability"
-                description="Embracing innovation is at the core of our mission. We constantly seek new technologies and forward-thinking solutions to enhance our services."
-                className="-mt-6 z-10"
-              />
-              <ServiceCard
-                title="Ethical Practices"
-                description="Integrity is the foundation of Samrudhi. Our mission is to uphold the highest ethical standards in every aspect of our business."
-                className="-mt-6 z-10"
-              />
-            </div>
+            {/* Card 3 */}
+            <article class="min-w-[280px] flex-1 rounded-[28px] bg-[#18473F] p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
+              <div class="flex items-center justify-center">
+                {/* Battery icon */}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="h-14 w-14 text-[#F3C64E]" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 7.5h1.125a1.875 1.875 0 0 1 1.875 1.875V15a1.5 1.5 0 0 1-1.5 1.5H6a1.5 1.5 0 0 1-1.5-1.5V9.375A1.875 1.875 0 0 1 6.375 7.5H7.5M9.75 12l2.25-3v2.25h2.25l-2.25 3V12H9.75zM16.5 7.5V6a.75.75 0 0 0-.75-.75h-7.5A.75.75 0 0 0 7.5 6v1.5" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
+                Battery Storage<br />Systems
+              </h3>
+              <p class="mt-4 text-center text-base leading-relaxed text-white/85">
+                Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div class="mt-8 flex justify-center">
+                <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
+                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                </a>
+              </div>
+            </article>
+
+            {/* Card 4 */}
+            <article class="min-w-[280px] flex-1 rounded-[28px] bg-[#18473F] p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
+              <div class="flex items-center justify-center">
+                {/* Sun icon (changed from duplicate battery icon) */}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="h-14 w-14 text-[#F3C64E]" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
+                Solar Maintenance<br />& Support
+              </h3>
+              <p class="mt-4 text-center text-base leading-relaxed text-white/85">
+                Consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div class="mt-8 flex justify-center">
+                <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
+                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                </a>
+              </div>
+            </article>
           </div>
         </div>
       </div>
-
-      {/* Reference image (hidden). Keeps asset in repo without affecting UI */}
-      <figure className="hidden" aria-hidden="true">
-        <img src="/images/reference.png" alt="" />
-      </figure>
     </section>
   )
 }
