@@ -13,34 +13,11 @@ import "./style.css";
 
 const Partners = () => {
   return (
-//     <div  className="partners-area pt-5" >
-//   <div className="container" >
-//     <div className="row">
-//       {/* Left side content */}
-//       <div  className="col-lg-4 d-flex justify-content-start align-items-center" style={{textAlign:'center'}}>
-//       <FadeContent
-//                 blur={true}
-//                 duration={1000}
-//                 easing="ease-out"
-//                 initialOpacity={0}
-//               >
-//         <h1>Your Journey Begins Here</h1>
-//         </FadeContent>
 
-//       </div>
-//       {/* Right side content */}
-//       <div className="col-lg-4 d-flex justify-content-start align-items-center" >
-//         <h6 style={{color:'#777777'}}>
-//           We guide you in selecting the best property that aligns with your vision and goals. With our extensive knowledge and unwavering commitment, we’ll ensure you make an informed decision that paves the way for a thriving and prosperous future.
-//         </h6>
-//       </div>
-//     </div>
-//   </div>
-// </div>
 <section className="bg-white py-16 flex flex-col items-center">
       <div className="max-w-4xl w-full mb-10 text-center">
         <h2 className="text-5xl font-bold text-gray-900 mb-4">
-          Why you should<br />work with us
+          Why you should<br/>work with us
         </h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto mt-5">
           Aptent imperdiet lobortis iaculis ultrices euismod odio pulvinar penatibus. Convallis sagittis taciti facilisis inceptos semper ultrices. Nullam ante erat vehicula dictum iaculis cursus. Bibendum pharetra vehicula egestas elementum curabitur.

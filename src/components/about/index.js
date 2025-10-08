@@ -11,6 +11,9 @@ import FadeContent from "../../utils/FadeContent";
 import ShinyText from "../../utils/shinyButtons";
 import BlurText from "../../utils/BlurText";
 import VariableProximity from "../../utils/VariableProximity";
+import MarqueeBanner from "../non-stop-slider/non-stop-slider";
+import SolarOverview from "../vision-mision/vision-mision";
+import AboutUSMISSION from "../about-us-mission/about-us-mission";
 
 const About = ({ text, readMore }) => {
   const disableContextMenu = (e) => {
@@ -99,6 +102,7 @@ const About = ({ text, readMore }) => {
                       </div>
                     </h2>
                     <p>
+
                       <div ref={containerRef} style={{ position: "relative" }}>
                         <VariableProximity
                           label={
@@ -112,6 +116,8 @@ const About = ({ text, readMore }) => {
                           falloff="linear"
                         />
                       </div>
+
+
                     </p>
                   </div>
                 )}

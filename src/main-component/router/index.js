@@ -45,7 +45,6 @@ const RoutesWithLoader = () => {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000); // Adjust delay to match your content loading time
-
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
