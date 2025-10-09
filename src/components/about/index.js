@@ -25,13 +25,14 @@ const About = ({ text, readMore }) => {
     console.log("All letters have animated!");
   };
   return (
-    <div
-      className="about-area"
-      style={{
-        userSelect: "none",
-        backgroundImage: `url(${AboutBgImg})`,
-      }}
-    >
+   <div
+  className="about-area bg-gradient-to-r from-green-100 to-emerald-400"
+  style={{
+    userSelect: "none",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
       <div className="container ">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-6">

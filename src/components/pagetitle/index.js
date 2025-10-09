@@ -84,14 +84,32 @@ const PageTitle = (props) => {
                   />
                 </div>
               ) : (
+                // <FadeContent
+                //   blur={true}
+                //   duration={1000}
+                //   easing="ease-out"
+                //   initialOpacity={0}
+                // >
+                //   <h1 style={{color:'#FDE047'}}>{props.PageTitle}</h1>
+                // </FadeContent>
                 <FadeContent
-                  blur={true}
-                  duration={1000}
-                  easing="ease-out"
-                  initialOpacity={0}
-                >
-                  <h1 style={{color:'#FDE047'}}>{props.PageTitle}</h1>
-                </FadeContent>
+                blur={true}
+                duration={1000}
+                easing="ease-out"
+                initialOpacity={0}
+              >
+                <h1
+                style={{
+                  color: 'white',           // changes text color to green
+                  fontFamily: 'Arial, sans-serif',
+                  fontWeight: 'bold',
+                  letterSpacing: '-0.5px',  // reduces space between letters; adjust value as needed
+                  fontSize: '54px',  
+                }}
+              >
+                {props.PageTitle}
+              </h1>
+              </FadeContent>
               )}
 
               <FadeContent

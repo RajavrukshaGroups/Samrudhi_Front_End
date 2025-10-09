@@ -26,7 +26,7 @@ const App = () => {
                     /> */}
                 <AllRoute />
         </div>
-          );
+    );
 };
 
 export default App;

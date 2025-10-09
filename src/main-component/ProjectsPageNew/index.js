@@ -1,11 +1,12 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import Header from "../../components/header";
 // import bg from "../../components/assets/new_project.webp";
-import bg from "../../components/assets/proone.jpg";
+import bg from "../../components/assets/projects_images.jpg";
 import { Helmet } from "react-helmet";
 import { updateMetaTags } from "../../utils/updateMetaTags";
 import "../AboutPage/loading.css";
 import Loader from "../../components/Loader/loader";
+import Navabar from "../../components/navbar/navbar"
 
 const PageTitle = React.lazy(() => import("../../components/pagetitle"));
 const ProjectListNew = React.lazy(() => import("../../components/ProjectListNew"));
@@ -49,7 +50,7 @@ const ProjectPageNew = () => {
         <meta name="twitter:image" content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png" /> */}
      
       </Helmet>
-      <Header />
+      <Navabar />
       <Suspense
         fallback={
           <div>
@@ -57,7 +58,7 @@ const ProjectPageNew = () => {
           </div>
         }
       >
-        <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={bg} />
+        <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/34163731/pexels-photo-34163731/free-photo-of-monochrome-construction-site-with-bird-in-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} />
         <ProjectListNew />
         <Footer />
       </Suspense>

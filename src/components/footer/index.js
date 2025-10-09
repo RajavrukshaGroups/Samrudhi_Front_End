@@ -81,7 +81,7 @@ const Footer = () => {
                 <p id="footer-head">Quick Links</p>
                 <ul className="footer_carousel unordered-list">
                   <li className="unorderedlistlink">
-                    <Link className="unorderedlistlink" to="/abo">
+                    <Link className="unorderedlistlink" to="/about">
                       About Us
                     </Link>
                   </li>

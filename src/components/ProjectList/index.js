@@ -7,6 +7,7 @@ import PlumeriaImg from "../../components/assets/plumeria1.webp";
 import Sylvan_logo from "../../components/assets/Sylvan-official-logo.png";
 import EcoNest_logo from "../../components/assets/Econest-official-logo.png";
 import Plumeria_logo from "../../components/assets/Plumeria_new_logo.png";
+import Navbar from "../navbar/navbar";
 import "./style.css";
 
 const ProjectList = () => {
@@ -21,6 +22,8 @@ const ProjectList = () => {
     }
   };
   return (
+    <>
+    <Navbar/>
     <section className="projects-area projects-page-area ">
       <div className="container">
         <div className="row">
@@ -64,7 +67,7 @@ const ProjectList = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       className="feather feather-eye"
-                    >
+                      >
                       <path
                         stroke="#ffffff"
                         d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
@@ -145,7 +148,7 @@ const ProjectList = () => {
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         className="feather feather-eye"
-                      >
+                        >
                         <path
                           stroke="#ffffff"
                           d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"
@@ -161,6 +164,7 @@ const ProjectList = () => {
         </div>
       </div>
     </section>
+     </>
   );
 };
 export default ProjectList;

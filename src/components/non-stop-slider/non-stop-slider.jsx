@@ -36,7 +36,7 @@ const marqueeItems = [
       </g>
     </svg>
   </span>,
-  "Transparent Communication",
+  "Excellence in Execution",
   <span className="mx-6" key="sun3">
     <svg width="40" height="40" viewBox="0 0 40 40" className="inline-block align-middle">
       <circle cx="20" cy="20" r="8" fill="none" stroke="#262626" strokeWidth="2"/>
