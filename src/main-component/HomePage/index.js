@@ -13,6 +13,7 @@ const ServiceSection = React.lazy(() =>
   import("../../components/ServiceSection")
 );
 
+
 const Testimonial = React.lazy(() => import("../../components/testimonial"));
 const Footer = React.lazy(() => import("../../components/footer"));
 const OngoingProjects = React.lazy(() =>
