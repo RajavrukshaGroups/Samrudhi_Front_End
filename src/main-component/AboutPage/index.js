@@ -22,7 +22,7 @@ visionary developments and bespoke real estate solutions.
 const AboutPage = () => {
   useEffect(() => {
     updateMetaTags({
-      title: "About Us - Rajavruksha",
+      title: "About Us - Samrudhi",
       description:
         "Discover Rajavruksha's mission to connect people with nature through serene farm plots near Bangalore.",
       ogTitle: "About Us - Rajavruksha",

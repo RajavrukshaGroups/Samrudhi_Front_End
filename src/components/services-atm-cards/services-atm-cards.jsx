@@ -6,21 +6,14 @@ const ServicesSection = () => {
   return (
     <section class="relative isolate overflow-hidden py-12 sm:py-16 lg:py-20 ">
       {/* Background image */}
-      {/* <img
-        // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-REy79ssk5PDrrUm3nZMTtJuMolS0gw.png"
-        alt="Warm sunset sky behind the solar solutions section"
-        class="absolute inset-0 -z-10 h-full w-full object-cover"
-      /> */}
       {/* Dark overlay for readability */}
       <div class="absolute inset-0 -z-10 bg-gradient-to-r from-green-100 to-emerald-300"></div>
-
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         {/* Headline */}
         <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
          Setting the Benchmark
          in Service
         </h2>
-
         {/* Card tray (subtle rounded container behind cards) */}
         <div class="mt-8 sm:mt-10 rounded-[28px] border border-white/40 bg-white/10 p-3 sm:p-4">
           {/* Cards grid - Changed to flex for single row */}
@@ -41,7 +34,7 @@ const ServicesSection = () => {
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
-                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                  Read More <span aria-hidden="true" class="ml-2">→</span>
                 </a>
               </div>
             </article>
@@ -63,7 +56,7 @@ communities. Our mission extends beyond property
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
-                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                  Read More <span aria-hidden="true" class="ml-2">→</span>
                 </a>
               </div>
             </article>
@@ -84,7 +77,7 @@ communities. Our mission extends beyond property
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
-                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                  Read More <span aria-hidden="true" class="ml-2">→</span>
                 </a>
               </div>
             </article>
@@ -106,7 +99,7 @@ highest ethical standards in every aspect of our business.
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
-                  Learn More <span aria-hidden="true" class="ml-2">→</span>
+                  Read More <span aria-hidden="true" class="ml-2">→</span>
                 </a>
               </div>
             </article>
