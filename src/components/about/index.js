@@ -14,6 +14,7 @@ import VariableProximity from "../../utils/VariableProximity";
 import MarqueeBanner from "../non-stop-slider/non-stop-slider";
 import SolarOverview from "../vision-mision/vision-mision";
 import AboutUSMISSION from "../about-us-mission/about-us-mission";
+import AboutUsImageModern from "../../components/assets/modernhomeaboutus.jpg";
 
 const About = ({ text, readMore }) => {
   const disableContextMenu = (e) => {
@@ -77,7 +78,7 @@ const About = ({ text, readMore }) => {
               data-aos-offset="100"
               onContextMenu={disableContextMenu}
             >
-              <img style={{width:'400px'}} className="about_img_2" src={'https://images.pexels.com/photos/15743362/pexels-photo-15743362/free-photo-of-facade-of-residential-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt="img" />
+              <img style={{width:'400px'}} className="about_img_2" src={AboutUsImageModern} alt="img" />
             </div>
           </div>
           <div className="row">

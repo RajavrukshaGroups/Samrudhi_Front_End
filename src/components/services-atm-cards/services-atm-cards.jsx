@@ -11,8 +11,7 @@ const ServicesSection = () => {
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         {/* Headline */}
         <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
-         Setting the Benchmark
-         in Service
+        Investor-Centric Approach
         </h2>
         {/* Card tray (subtle rounded container behind cards) */}
         <div class="mt-8 sm:mt-10 rounded-[28px] border border-white/40 bg-white/10 p-3 sm:p-4">
@@ -27,10 +26,11 @@ const ServicesSection = () => {
                 </svg>
               </div>
               <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
-                Client-Centric <br />Excellence
+                Transparent <br />Communication
               </h3>
               <p class="mt-4 text-center text-base leading-relaxed text-white/85">
-                Our foremost commitment is to our clients. We strive to understand their unique needs and deliver unparalleled service
+               We prioritize transparency by offering regular updates on project progress, financial
+performance, and market trends.
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
@@ -48,11 +48,12 @@ const ServicesSection = () => {
                 </svg>
               </div>
               <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
-                Community <br />Building
+                Tailored Investment  <br />Opportunities
               </h3>
               <p class="mt-4 text-center text-base leading-relaxed text-white/85">
-                Community Building: We believe in the power of real estate to shape vibrant
-communities. Our mission extends beyond property 
+              Understanding that each investor has unique goals, we offer customized investment
+solutions
+            
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
@@ -70,10 +71,11 @@ communities. Our mission extends beyond property
                 </svg>
               </div>
               <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
-                Innovation and<br />Adaptability
+                Competitive <br />Financial Terms
               </h3>
               <p class="mt-4 text-center text-base leading-relaxed text-white/85">
-                 innovation is at the core of our mission. We constantly seek new technologies and forward-thinking solutions to enhance our services.
+                We offer attractive returns on investment, clearly outlining timelines and exit strategies.
+            <br />
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
@@ -91,11 +93,11 @@ communities. Our mission extends beyond property
                 </svg>
               </div>
               <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
-                Ethical <br />Practices
+                Ongoing Support <br /> and Engagement
               </h3>
               <p class="mt-4 text-center text-base leading-relaxed text-white/85">
-                Integrity is the foundation of Samrudhi. Our mission is to uphold the
-highest ethical standards in every aspect of our business. 
+               Our commitment extends beyond the initial investment. We maintain regular
+communication with our investors
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">

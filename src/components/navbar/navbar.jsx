@@ -50,7 +50,7 @@ const Navbar = () => {
         >
           About
         </a>
-        <a
+        {/* <a
           href="/projects"
           className={`font-medium px-4 py-2 transition hover:text-yellow-300 rounded-full ${
             isActive("/projects")
@@ -59,7 +59,7 @@ const Navbar = () => {
           }`}
         >
           Projects
-        </a>
+        </a> */}
       </nav>
       
 
