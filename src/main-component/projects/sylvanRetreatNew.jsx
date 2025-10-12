@@ -85,34 +85,13 @@ const SylvanRetreatNew = () => {
 
         <meta property="og:description" content={ogDescription} />
 
-        <meta
-          property="og:image"
-          content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-        />
+      
 
         <meta property="og:url" content={ogUrl} />
 
-        {/* <meta name="twitter:card" content="summary_large_image" />
+      
 
-<meta name="twitter:title" content="Sylvan Retreat - Premium Farmlands" />
-
-<meta
-
-  name="twitter:description"
-
-  content="Discover the serene beauty of Sylvan Retreat and invest in your dream farmland."
-
-/>
-
-<meta
-
-  name="twitter:image"
-
-  content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-
-/> */}
-
-        {/* <link rel="icon" href="/web_logo_new.png" type="image/png" /> */}
+        
       </Helmet>
 
       <div>

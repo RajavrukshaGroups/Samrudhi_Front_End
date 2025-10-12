@@ -21,37 +21,38 @@ const OngoingProjects = React.lazy(() =>
 );
 
 const HomePage = () => {
-  const description =
-    "Explore prime farmland & plots with Rajavruksha, your expert guide to perfect investments and properties.";
-  const ogTitle = "Rajavruksha - Real Estate Excellence";
-  const ogDescription =
-    " Discover premium real estate services, farmlands, and projects tailored for you.";
-  const ogUrl = "https://rajavrukshagroup.in/";
-  const title =
-    " – Your Real Estate Partner for Farmland & Plots located at Hebbal, North Bangalore";
+  // const description =
+  //   "";
+  // const ogTitle = "";
+  // const ogDescription =
+  //   " ";
+  // const ogUrl = "";
+  // const title =
+  //   " ";
 
-  useEffect(() => {
-    updateMetaTags({
-      title,
-      description,
-      ogTitle,
-      ogDescription,
-      ogUrl,
-    });
-  }, [title, description, ogTitle, ogDescription, ogUrl]);
+  // useEffect(() => {
+  //   updateMetaTags({
+  //     title,
+  //     description,
+  //     ogTitle,
+  //     ogDescription,
+  //     ogUrl,
+  //   });
+  // }, [title, description, ogTitle, ogDescription, ogUrl]);
+  
   return (
-    <Fragment>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
+    <>
+      {/* <Helmet> */}
+        {/* <title>{title}</title> */}
+        {/* <meta name="description" content={description} /> */}
+        {/* <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} /> */}
         {/* <meta
           property="og:image"
           content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
         /> */}
-        <meta property="og:url" content={ogUrl} />
-      </Helmet>
+        {/* <meta property="og:url" content={ogUrl} /> */}
+      {/* </Helmet> */}
       {/* <Header/> */}
       <Suspense
         fallback={
@@ -64,13 +65,13 @@ const HomePage = () => {
         <NewHomepage/>
         {/* <About text={""} readMore="read more" /> */}
         <KeyConcept  />
-        <Container />
+        {/* <Container /> */}
         <OngoingProjects />
         <ServiceSection />
         <Testimonial />
         <Footer />
       </Suspense>
-    </Fragment>
+    </>
   );
 };
 

@@ -36,10 +36,10 @@ const ContactPage = () => {
         <meta name="description" content={description} />
         <meta property="og:title" content={ogTitle} />
         <meta property="og:description" content={ogDescription} />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-        />
+        /> */}
         <meta property="og:url" content={ogUrl} />
         {/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Rajavruksha Group" />

@@ -6,8 +6,10 @@ import { Helmet } from "react-helmet";
 import { updateMetaTags } from "../../utils/updateMetaTags";
 import "../AboutPage/loading.css";
 import Loader from "../../components/Loader/loader";
-import Navabar from "../../components/navbar/navbar"
-
+import Navabar from "../../components/navbar/navbar";
+import ProjectCardContainer from "../../components/projects-cards/projects-container";
+import ProjectIconic from "../../components/projects-cards/projects-iconic"
+// import ProjectList from "../../../src/main-component/ProjectsPageNew/index";
 const PageTitle = React.lazy(() => import("../../components/pagetitle"));
 const ProjectListNew = React.lazy(() => import("../../components/ProjectListNew"));
 const Footer = React.lazy(() => import("../../components/footer"));
@@ -32,6 +34,7 @@ const ProjectPageNew = () => {
   }, [title, description, ogTitle, ogDescription, ogUrl]);
 
   return (
+
     <Fragment>
       <Helmet>
         <title>{title}</title>
@@ -58,8 +61,10 @@ const ProjectPageNew = () => {
           </div>
         }
       >
-        <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/34163731/pexels-photo-34163731/free-photo-of-monochrome-construction-site-with-bird-in-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} />
-        <ProjectListNew />
+        <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} />
+        <ProjectCardContainer />
+        <ProjectIconic />
+        {/* <ProjectListNew /> */}
         <Footer />
       </Suspense>
     </Fragment>

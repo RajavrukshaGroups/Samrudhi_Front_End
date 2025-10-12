@@ -3,37 +3,38 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
 import PngLeaf from "../../components/assets/_Pngtree_leaf_logo_design_icon_vector_4400175-removebg-preview.png"
-import LadyImage from "../../components/assets/lady.jpg"
-import MenImage from "../../components/assets/menimg.jpg"
+import LadyImage from "../../components/assets/femailetwo.jpg"
+import MenImage from "../../components/assets/male_avathar.jpg"
+import FEmaleImage from "../../components/assets/female_avathar.jpg"
 const testimonials = [
   {
     id: 1,
     name: "Sneha Patel",
     role: "Flat Owner",
-    image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
+    image: LadyImage,
     text: "The quality of construction and attention to detail exceeded my expectations. Samrudhi Properties delivered exactly what they promised — on time and with complete transparency",
   },
   {
     id: 2,
     name: "Ramesh Kumar",
     role: "Homebuyer",
-    image: LadyImage,
+    image: MenImage,
     text: "Buying my dream home with Samrudhi Property Developers was the best decision ever. Their team guided me through every step, ensuring clear communication and timely updates. Truly professional and trustworthy",
   },
   {
     id: 3,
+    name: "Meera Nair",
+    role: "Real Estate Investor",
+    // image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
+    image: FEmaleImage,
+    text: "I’ve invested in multiple projects, and Samrudhi Property Developers stand out for their commitment to quality and customer satisfaction. Highly recommended for long-term investments",
+  },
+  {
+    id: 4,
     name: "Deepak Reddy",
     role: "New Homeowner",
     image: MenImage,
     text: "From site visits to registration, everything was smooth and well-organized. The staff were courteous and knowledgeable, making my first purchase worry-free!",
-  },
-  {
-    id: 4,
-    name: "Meera Nair",
-    role: "Real Estate Investor",
-    // image: "https://img.freepik.com/premium-vector/boy-cartoon-style-isolated-white-background-smiling-man-office-worker-businessman-cartoon-character-vector-illustration_376167-193.jpg?w=360",
-    image: LadyImage,
-    text: "I’ve invested in multiple projects, and Samrudhi Property Developers stand out for their commitment to quality and customer satisfaction. Highly recommended for long-term investments",
   },
 ]
 

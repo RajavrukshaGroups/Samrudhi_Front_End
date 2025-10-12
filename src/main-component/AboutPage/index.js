@@ -23,22 +23,22 @@ const AboutPage = () => {
   useEffect(() => {
     updateMetaTags({
       title: "About Us - Samrudhi",
-      description:
-        "Discover Rajavruksha's mission to connect people with nature through serene farm plots near Bangalore.",
-      ogTitle: "About Us - Rajavruksha",
-      ogDescription:
-        "Discover Rajavruksha's mission to connect people with nature.",
-      ogUrl: "https://rajavrukshagroup.in/about",
+      // description:
+      //   "Discover Rajavruksha's mission to connect people with nature through serene farm plots near Bangalore.",
+      // ogTitle: "About Us - Rajavruksha",
+      // ogDescription:
+      //   "Discover Rajavruksha's mission to connect people with nature.",
+      // ogUrl: "https://rajavrukshagroup.in/about",
     });
   }, []);
 
   return (
     <Fragment>
       <Helmet>
-        <title>About Us - Rajavruksha</title>
-        <meta
+        <title>About Us - Samrudhi</title>
+        {/* <meta
           name="description"
-          content="Discover Rajavruksha's mission to connect people with nature through serene farm plots near Bangalore."
+          content="Discover S's mission to connect people with nature through serene farm plots near Bangalore."
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="About Us - Rajavruksha" />
@@ -49,7 +49,7 @@ const AboutPage = () => {
         <meta
           property="og:image"
           content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-        />
+        /> */}
       </Helmet>
 
       {/* <Header /> */}
