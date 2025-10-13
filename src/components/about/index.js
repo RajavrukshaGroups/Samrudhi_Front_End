@@ -27,22 +27,21 @@ const About = ({ text, readMore }) => {
   };
   return (
    <div
-  className="about-area bg-gradient-to-r from-green-100 to-emerald-400"
-  style={{
-    userSelect: "none",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
+      className="about-area bg-gradient-to-r from-green-100 to-emerald-400"
+      style={{
+        userSelect: "none",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }} >
       <div className="container ">
         <div className="row align-items-center">
-          <div className="col-lg-5 col-md-6">
-            <div
+          {/* <div className="col-lg-5 col-md-6"> */}
+            {/* <div
               className="about-left"
               data-aos="fade-right"
               data-aos-offset="100"
-            >
-              <div className="site-heading">
+            > */}
+              {/* <div className="site-heading">
                 <FadeContent
                   blur={true}
                   duration={1000}
@@ -56,8 +55,8 @@ const About = ({ text, readMore }) => {
                 <div>
                   <p>{text}</p>
                 </div>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className="content"
                 style={{
                   display: "flex",
@@ -65,12 +64,10 @@ const About = ({ text, readMore }) => {
                   alignItems: "center",
                 }}
               >
-                
-             
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 offset-lg-1 col-md-6">
+              </div> */}
+            {/* </div> */}
+          {/* </div> */}
+          {/* <div className="col-lg-6 offset-lg-1 col-md-6">
             <div className="about-counter"></div>
             <div
               className="about-right"
@@ -80,7 +77,7 @@ const About = ({ text, readMore }) => {
             >
               <img style={{width:'400px'}} className="about_img_2" src={AboutUsImageModern} alt="img" />
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-6 col-md-12 vision-new">
               <div
@@ -118,8 +115,6 @@ const About = ({ text, readMore }) => {
                           falloff="linear"
                         />
                       </div>
-
-
                     </p>
                   </div>
                 )}

@@ -1,7 +1,7 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
-import Header from "../../components/header";
+import Header from "../../components/navbar/navbar";
 import { updateMetaTags } from "../../utils/updateMetaTags";
 import Loader from "../../components/Loader/loader";
 import bgImg1 from "../../components/assets/Sylan_retreat_new_Banner.webp";

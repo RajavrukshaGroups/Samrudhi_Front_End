@@ -48,18 +48,18 @@ performance, and market trends.
                 </svg>
               </div>
               <h3 class="mt-6 text-center text-2xl font-extrabold leading-snug text-[#F3C64E]">
-                Tailored Investment  <br />Opportunities
+                Tailored Investment  <br /> Opportunities
               </h3>
               <p class="mt-4 text-center text-base leading-relaxed text-white/85">
-              Understanding that each investor has unique goals, we offer customized investment
-solutions
+              Understanding that each investor has unique goals, we offer customized investment solutions
             
               </p>
               <div class="mt-8 flex justify-center">
-                <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
+                <button href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">
                   Read More <span aria-hidden="true" class="ml-2">→</span>
-                </a>
+                </button>
               </div>
+
             </article>
 
             {/* Card 3 */}

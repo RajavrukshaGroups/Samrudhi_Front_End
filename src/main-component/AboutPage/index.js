@@ -6,6 +6,10 @@ import { updateMetaTags } from "../../utils/updateMetaTags";
 import "./loading.css";
 import Loader from "../../components/Loader/loader";
 import Navbar from "../../components/navbar/navbar";
+import AboutUsBanner from "../../components/aboutus-banner/aboutus-banner";
+import ServicesSection from "../../components/services-atm-cards/servicesSection"
+
+
 
 const About = React.lazy(() => import("../../components/about"));
 const PageTitle = React.lazy(() => import("../../components/pagetitle"));
@@ -61,9 +65,11 @@ const AboutPage = () => {
           </div>
         }
       >
-        <PageTitle PageTitle="About Us" pagesub="About" pageImg={bg} />
+        {/* <PageTitle PageTitle="About Us" pagesub="About" pageImg={bg} /> */}
+        <AboutUsBanner />
         <About text={aboutText} image={bg} />
-        <Animation />
+        {/* <Animation /> */}
+        <ServicesSection />
         <Footer />
       </Suspense>
     </Fragment>

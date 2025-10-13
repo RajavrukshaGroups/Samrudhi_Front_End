@@ -4,21 +4,23 @@ import "./project.css";
 
 export default function AlumniHero() {
   return (
-    <section className="relative bg-[#277056] min-h-[450px] h-[420px]  flex items-center">
+    <>
+    <div className="w-full h-36 bg-[#277056]"></div>
+    <section className="relative bg-[#277056] min-h-[450px] h-[420px] pt-[180px]  flex items-center">
       {/* Animated SVG Wave Lines */}
       <svg
         className="absolute left-0 top-0 w-full h-full z-0 pointer-events-none"
         viewBox="0 0 1440 450"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-      >
+        >
         <path
           d="M0,90 C380,200 1100,0 1440,90"
           stroke="#4FC18B"
           strokeWidth="2"
           fill="none"
           className="animate-wave"
-        />
+          />
         <path
           d="M0,250 Q700,350 1440,180"
           stroke="#4FC18B80"
@@ -29,9 +31,9 @@ export default function AlumniHero() {
       </svg>
       {/* Left Content */}
       <div className="flex-1 pl-16 z-10 max-lg:pl-4">
-        <div className="text-[#EDEFEF] tracking-widest uppercase text-sm mb-3">
+        {/* <div className="text-[#EDEFEF] tracking-widest uppercase text-sm mb-3">
           Featured Work
-        </div>
+        </div> */}
         <h1 className="text-5xl font-extrabold text-white leading-tight mb-5">
           <span className="text-6xl"></span>
           Shaping Communities<br />
@@ -42,9 +44,9 @@ export default function AlumniHero() {
         <p className="text-[#CFE0DB]  text-1xl mb-6 max-w-xl">
           Samrudhi is dedicated to playing a pivotal role in building and nurturing sustainable communities
         </p>
-        <button className="rounded-full bg-[#F3EEE7] text-[#232323] font-semibold px-8 py-3 shadow hover:bg-[#E1D1B7] transition-all duration-200">
+        {/* <button className="rounded-full bg-[#F3EEE7] text-[#232323] font-semibold px-8 py-3 shadow hover:bg-[#E1D1B7] transition-all duration-200">
           Explore Plots
-        </button>
+          </button> */}
       </div>
 
       {/* Right Side Graphics */}
@@ -56,7 +58,7 @@ export default function AlumniHero() {
     alt="Graduate"
     className="relative drop-shadow-xl z-10"
     style={{ left: "0px", top: "100px", zIndex: 10, width: "500px" }}
-  />
+    />
 </div>
   {/* Graduates */}
   {/* <img
@@ -64,26 +66,26 @@ export default function AlumniHero() {
     alt="Graduate"
     className="relative w-72 drop-shadow-xl z-10"
     style={{ left: "0px", top: "80px", zIndex: 10 }}
-  />
+    />
   <img
     src="/graduation_female_blue.png"
     alt="Graduate"
     className="relative w-64 left-[-70px] z-20"
     style={{ top: "120px", zIndex: 20 }}
-  />
-  <img
+    />
+    <img
     src="/graduation_female_black.png"
     alt="Graduate"
     className="relative w-64 left-[-120px] top-[160px] z-10"
-  /> */}
+    /> */}
   {/* Right side round icon */}
-  <div className="absolute right-4 bottom-14 bg-white rounded-full p-4 shadow-xl">
+  {/* <div className="absolute right-4 bottom-14 bg-white rounded-full p-4 shadow-xl">
     <svg width="32" height="32" fill="none" viewBox="0 0 32 32">
       <circle cx="16" cy="16" r="16" fill="#F3EEE7" />
       <path d="M8 14L16 10L24 14" stroke="#C98419" strokeWidth="2" />
       <rect x="12" y="16" width="8" height="4" fill="#C98419" />
     </svg>
-  </div>
+  </div> */}
 </div>
 
       {/* Mobile graduates */}
@@ -93,7 +95,7 @@ export default function AlumniHero() {
           src="/graduation_male.png"
           alt="Graduate"
           className="w-32 drop-shadow-xl"
-        />
+          />
       </div>
 
       {/* Dots on right */}
@@ -104,6 +106,7 @@ export default function AlumniHero() {
         <span className="w-2 h-2 bg-[#F3EEE7] opacity-40 rounded-full"></span>
       </div>
     </section>
+          </>
   );
 }
 

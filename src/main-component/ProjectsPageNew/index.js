@@ -61,7 +61,7 @@ const ProjectPageNew = () => {
           </div>
         }
       >
-        <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} />
+        {/* <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} /> */}
         <ProjectCardContainer />
         <ProjectIconic />
         {/* <ProjectListNew /> */}

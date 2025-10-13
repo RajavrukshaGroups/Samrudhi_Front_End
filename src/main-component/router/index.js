@@ -11,7 +11,7 @@ import AboutPage from "../AboutPage";
 import ProjectPage from "../ProjectPage";
 import ProjectSinglePage from "../ProjectSinglePage";
 import ServicePage from "../ServicePage";
-import ContactPage from "../ContactPage";
+import ContactPage from "../../components/contact-us/contact-us.jsx";
 import ErrorPage from "../ErrorPage";
 import ExperienceSection from "../../components/demo/experienceSection.jsx";
 import SylvanRetreat from "../../main-component/projects/sylvanretreat";
@@ -34,6 +34,7 @@ import  HeroScrollDemo  from "../../components/BlogList/index.js";
 import SylvanRetreatNew from "../projects/sylvanRetreatNew.jsx";
 import ProjectPageNew from "../ProjectsPageNew/index.js";
 import EcoNestNewMain from "../projects/EcoNestNewMain.jsx";
+
 
 const RoutesWithLoader = () => {
   

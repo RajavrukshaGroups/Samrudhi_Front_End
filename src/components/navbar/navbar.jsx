@@ -65,7 +65,7 @@ const Navbar = () => {
 
       {/* Contact button */}
       <a
-        href="/"
+        href="/contact"
         className="bg-yellow-300 text-gray-900 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-yellow-400 transition flex items-center gap-2"
       >
         Get In Touch
