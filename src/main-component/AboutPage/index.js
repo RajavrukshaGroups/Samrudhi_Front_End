@@ -7,7 +7,8 @@ import "./loading.css";
 import Loader from "../../components/Loader/loader";
 import Navbar from "../../components/navbar/navbar";
 import AboutUsBanner from "../../components/aboutus-banner/aboutus-banner";
-import ServicesSection from "../../components/services-atm-cards/servicesSection"
+import ServicesSection from "../../components/services-atm-cards/servicesSection";
+import AboutCompany from "../../components/about-company/about-company";
 
 
 
@@ -69,6 +70,7 @@ const AboutPage = () => {
         <AboutUsBanner />
         <About text={aboutText} image={bg} />
         {/* <Animation /> */}
+        <AboutCompany />
         <ServicesSection />
         <Footer />
       </Suspense>
