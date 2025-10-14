@@ -9,6 +9,7 @@ import Navbar from "../../components/navbar/navbar";
 import AboutUsBanner from "../../components/aboutus-banner/aboutus-banner";
 import ServicesSection from "../../components/services-atm-cards/servicesSection";
 import AboutCompany from "../../components/about-company/about-company";
+import CommitmentExcellence from "../../components/commitment-excelence/commitment-excelence.jsx"
 
 
 
@@ -72,6 +73,7 @@ const AboutPage = () => {
         {/* <Animation /> */}
         <AboutCompany />
         <ServicesSection />
+        <CommitmentExcellence />
         <Footer />
       </Suspense>
     </Fragment>

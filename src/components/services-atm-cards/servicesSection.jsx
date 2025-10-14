@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Search, Users, TrendingUp, Lightbulb, Check } from "lucide-react"
-
+import { Link } from "react-router-dom";
 // Define the SVG icons exactly as used in your static code
 const icons = {
   house: (
@@ -116,6 +116,9 @@ const ServicesSection = () => {
         <h2 className="text-center font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
           Investor-Centric Approach
         </h2>
+         <p className="font-normal pl-8 text-black">At Samrudhi, we recognize that our investors are pivotal to our success. We are
+committed to fostering transparent, mutually beneficial relationships by providing clear
+communication, tailored investment opportunities, and consistent returns</p>
         <div className="mt-8 sm:mt-10 rounded-[28px] border border-white/40 bg-white/10 p-3 sm:p-4">
           {/* Changed this container to use grid for mobile and flex for desktop */}
           <div className="grid grid-cols-1 gap-4 lg:flex lg:flex-row lg:gap-6 lg:overflow-x-auto">
@@ -159,18 +162,18 @@ const ServicesSection = () => {
               <div className="bg-[#18473F] p-6 border-t border-[#F3C64E]/20">
                 <div className="flex flex-col sm:flex-row gap-3 justify-between items-center">
                   <div className="flex gap-3">
-                    <button
+                    {/* <button
                       onClick={handleCloseModal}
                       className="px-6 py-2 border border-white/30 text-white rounded-full hover:bg-white/10 transition-colors"
                     >
                       Learn More
-                    </button>
-                    <button
-                      onClick={handleCloseModal}
-                      className="px-6 py-2 bg-[#F3C64E] text-[#18473F] font-semibold rounded-full hover:bg-[#e2b843] transition-colors"
-                    >
-                      Get Started
-                    </button>
+                    </button> */}
+               <Link 
+  to="/contact"
+  className="px-6 py-2 bg-[#F3C64E] text-[#18473F] font-semibold rounded-full hover:bg-[#e2b843] transition-colors"
+>
+  Get Started
+</Link>
                   </div>
                 </div>
               </div>

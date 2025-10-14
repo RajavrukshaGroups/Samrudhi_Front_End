@@ -13,6 +13,9 @@ const ServicesSection = () => {
         <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
         Investor-Centric Approach
         </h2>
+        <p>At Samrudhi, we recognize that our investors are pivotal to our success. We are
+committed to fostering transparent, mutually beneficial relationships by providing clear
+communication, tailored investment opportunities, and consistent returns.</p>
         {/* Card tray (subtle rounded container behind cards) */}
         <div class="mt-8 sm:mt-10 rounded-[28px] border border-white/40 bg-white/10 p-3 sm:p-4">
           {/* Cards grid - Changed to flex for single row */}
