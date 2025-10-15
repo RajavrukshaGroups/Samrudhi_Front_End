@@ -11,7 +11,7 @@ import DHSprojects from "../../components/assets/dhs_projectsimg.jpg";
 
 const OngoingProjects = () => {
   return (
-    <div className="projects-container-new mt-0 responsive ">
+    <div className=" mt-0 responsive ">
       <div className="flex flex-col overflow-hidden animate-threeD-container">
         <h1 className=" text-1xl font-bold project-subtitle md:text-6xl justify-center flex ">Our Ongoing Projects</h1>
       </div>
@@ -47,19 +47,19 @@ const OngoingProjects = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <h2 className="project-subtitle  text-white">Sylvan Retreat</h2>
+              <h2 className="project-subtitle  text-green-900">Sylvan Retreat</h2>
             </FadeContent>
             <p className="project-description">
               Farmland is not just a dream; it's a sound financial investment
               with growing demand in the market.
             </p>
-            {/* <Link to="/sylvan-retreat"> */}
+            <Link to="/sylvan-retreat">
               <button className="project-button">
                 <MovingBorderDemo>
                   <ShinyText text="Read More" disabled={false} speed={3} />
                 </MovingBorderDemo>
               </button>
-            {/* </Link> */}
+            </Link>
           </div>
         </div>
 
@@ -92,19 +92,19 @@ const OngoingProjects = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <h2 className="project-subtitle text-white">Aarika</h2>
+              <h2 className="project-subtitle text-green-900">Aarika</h2>
             </FadeContent>
             <p className="project-description">
               An exclusive premium residential project designed for peaceful living with
               modern amenities.
             </p>
-            {/* <Link to="/plumeria"> */}
+            <Link to="/plumeria">
               <button className="project-button">
                 <MovingBorderDemo>
                   <ShinyText text="Read More" disabled={false} speed={3} />
                 </MovingBorderDemo>
               </button>
-            {/* </Link> */}
+            </Link>
           </div>
         </div>
          <div className="project-card">
@@ -138,18 +138,18 @@ const OngoingProjects = () => {
               easing="ease-out"
               initialOpacity={0}
             >
-              <h2 className="project-subtitle text-white">DHS Projects</h2>
+              <h2 className="project-subtitle text-green-900">DHS Projects</h2>
             </FadeContent>
             <p className="project-description">
              Defence Habitat makes your real estate dreams a reality with trusted experience and services tailored to your needs.
             </p>
-            {/* <Link to="/plumeria"> */}
+            <Link to="/dhs-landingpage">
               <button className="project-button">
                 <MovingBorderDemo>
                   <ShinyText text="Read More" disabled={false} speed={3} />
                 </MovingBorderDemo>
               </button>
-            {/* </Link> */}
+            </Link>
           </div>
         </div>
       </div>

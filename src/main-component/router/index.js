@@ -34,6 +34,7 @@ import  HeroScrollDemo  from "../../components/BlogList/index.js";
 import SylvanRetreatNew from "../projects/sylvanRetreatNew.jsx";
 import ProjectPageNew from "../ProjectsPageNew/index.js";
 import EcoNestNewMain from "../projects/EcoNestNewMain.jsx";
+import DhsLandingPage from "../../components/dhs_landingpage/dhs_landingpage.jsx";
 
 
 const RoutesWithLoader = () => {
@@ -79,6 +80,7 @@ const RoutesWithLoader = () => {
         {/* <Route path="/amenities" element={<Amenities />} /> */}
         <Route path="/privacyPolicy" element={<MainPrivacyPolicy />} />
         <Route path="/aceternity" element={<HeroScrollDemo />} />
+        <Route path="/dhs-landingpage" element={<DhsLandingPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

@@ -14,7 +14,7 @@ const services = [
     bgGradient: "from-green-400 to-green-600",
     shadowColor: "shadow-green-500/30",
     ringColor: "ring-green-400/20",
-    cardGradient: "from-green-50 to-emerald-50",
+    cardGradient: "from-green-200 to-emerald-50",
     features: [
       "Strategic location analysis",
       "Land acquisition expertise",
@@ -31,7 +31,7 @@ const services = [
     bgGradient: "from-emerald-400 to-emerald-600",
     shadowColor: "shadow-emerald-500/30",
     ringColor: "ring-emerald-400/20",
-    cardGradient: "from-emerald-50 to-teal-50",
+    cardGradient: "from-emerald-200 to-teal-50",
     features: [
       "Comprehensive project planning",
       "Quality construction management",
@@ -48,7 +48,7 @@ const services = [
     bgGradient: "from-teal-400 to-teal-600",
     shadowColor: "shadow-teal-500/30",
     ringColor: "ring-teal-400/20",
-    cardGradient: "from-teal-50 to-cyan-50",
+    cardGradient: "from-teal-200 to-cyan-50",
     features: [
       "Legal compliance assurance",
       "Document verification",
@@ -65,7 +65,7 @@ const services = [
     bgGradient: "from-cyan-400 to-cyan-600",
     shadowColor: "shadow-cyan-500/30",
     ringColor: "ring-cyan-400/20",
-    cardGradient: "from-cyan-50 to-blue-50",
+    cardGradient: "from-cyan-200 to-blue-50",
     features: [
       "Strategic marketing campaigns",
       "Sales facilitation",

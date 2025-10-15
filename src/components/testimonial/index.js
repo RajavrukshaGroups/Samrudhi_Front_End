@@ -70,7 +70,7 @@ export default function Testimonials() {
   const visibleTestimonials = getVisibleTestimonials()
 
   return (
-    <section className="relative min-h overflow-hidden bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329] py-20">
+    <section className="relative min-h overflow-hidden bg-gradient-to-br  py-20">
       {/* Decorative leaves */}
       <div className="pointer-events-none absolute right-10 top-10 h-32 w-32 opacity-40">
         <img src={PngLeaf} alt="" className="h-full w-full object-contain" />
@@ -85,8 +85,8 @@ export default function Testimonials() {
       <div className="container relative z-10 mx-auto px-4">
         {/* Header */}
         <div className="mx-auto mb-16 max-w-4xl p-8 text-center">
-          <p className="mb-4 text-sm font-medium uppercase tracking-wider text-white">Hear From</p>
-          <h2 className="mb-6 text-5xl font-bold project-subtitle md:text-6xl">Our Happy Customers !</h2>
+          <p className="mb-4 text-sm font-medium uppercase tracking-wider text-green-900">Hear From</p>
+          <h2 className="mb-6 text-5xl font-bold project-subtitle md:text-6xl text-green-900">Our Happy Customers !</h2>
         </div>
 
         {/* Testimonials Grid */}
@@ -98,7 +98,7 @@ export default function Testimonials() {
                 // When clicking a card, make it the center card
                 if (testimonial.position === 0) {
                   // Clicked left card - go to previous
-                  handlePrevious()
+                  handlePrevious()           
                 } else if (testimonial.position === 2) {
                   // Clicked right card - go to next
                   handleNext()
@@ -107,8 +107,8 @@ export default function Testimonials() {
               }}
               className={`relative flex flex-col rounded-3xl border-2 cursor-pointer transition-all duration-300 ${
                 testimonial.isSelected 
-                  ? 'border-[#d4a843] bg-black/30 shadow-lg shadow-[#d4a843]/20 scale-105' 
-                  : 'border-white/20 bg-black/20 hover:border-white/40 hover:bg-black/25 scale-100'
+                  ? 'border-[#d4a843] bg-black/70 shadow-lg shadow-[#d4a843]/20 scale-105' 
+                  : 'border-white/20 bg-black/50 hover:border-white/40 hover:bg-black/25 scale-100'
               } p-8 backdrop-blur-sm`}
             >
               {/* Avatar */}
@@ -144,7 +144,7 @@ export default function Testimonials() {
         <div className="flex items-center justify-center gap-4">
           <button
             onClick={handlePrevious}
-            className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-white/30 bg-transparent text-white transition-colors hover:border-white/50 hover:bg-white/10"
+            className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-black/30 bg-transparent text-black transition-colors hover:border-white/50 hover:bg-white/10"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="h-6 w-6" />
@@ -157,7 +157,7 @@ export default function Testimonials() {
                 key={index}
                 onClick={() => setCurrentIndex(index)}
                 className={`h-3 w-3 rounded-full transition-colors ${
-                  index === currentIndex ? 'bg-[#d4a843]' : 'bg-white/30 hover:bg-white/50'
+                  index === currentIndex ? 'bg-[#d4a843]' : 'bg-black/30 hover:bg-black/50'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
@@ -166,7 +166,7 @@ export default function Testimonials() {
 
           <button
             onClick={handleNext}
-            className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-white/30 bg-transparent text-white transition-colors hover:border-white/50 hover:bg-white/10"
+            className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-white/30 bg-transparent text-black transition-colors hover:border-white/50 hover:bg-white/10"
             aria-label="Next testimonial"
           >
             <ChevronRight className="h-6 w-6" />

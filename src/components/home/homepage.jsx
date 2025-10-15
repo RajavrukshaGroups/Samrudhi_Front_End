@@ -47,9 +47,8 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          playsInline
-        >
-          <source src={HeroVideo} type="video/mp4" />
+          playsInline >
+          <source src={'https://res.cloudinary.com/den0iz8zn/video/upload/v1760420407/banner_video_vdemtg.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/30"></div>
@@ -67,7 +66,7 @@ const HeroSection = () => {
 
         <div className="mt-8 flex items-center gap-6">
           <a
-            href="/"
+            href="/projects"
             className="bg-yellow-300 text-gray-900 font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-yellow-400 transition flex items-center gap-3"
             >
             Explore Plots

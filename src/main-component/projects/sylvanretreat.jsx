@@ -28,10 +28,7 @@ function Sylvanretreats() {
   return (
     <Fragment>
       <Helmet>
-        
-       
       </Helmet>
-
       <Header />
       <Suspense
         fallback={

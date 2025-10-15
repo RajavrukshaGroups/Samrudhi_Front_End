@@ -111,7 +111,8 @@ const ServicesSection = () => {
 
   return (
     <section className="relative isolate overflow-hidden py-12 sm:py-16 lg:py-20">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-green-100 to-emerald-300"></div>
+      {/* <div className="absolute inset-0 -z-10 bg-gradient-to-r from-green-100 to-emerald-300"></div> */}
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white to-white"></div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-center font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
           Investor-Centric Approach

@@ -11,7 +11,7 @@ const ServicesSection = () => {
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         {/* Headline */}
         <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
-        Investor-Centric Approach
+         Investor-Centric Approach
         </h2>
         <p>At Samrudhi, we recognize that our investors are pivotal to our success. We are
 committed to fostering transparent, mutually beneficial relationships by providing clear

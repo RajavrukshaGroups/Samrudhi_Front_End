@@ -5,7 +5,8 @@ import SamrudhiHalfcut from "../../components/assets/samrudhi_logo_half_cut.png"
 
 const AboutCompany = () => {
   return (
-    <section className="bg-gradient-to-r from-green-100 to-emerald-400 py-16 px-4 md:px-12">
+    // <section className="bg-gradient-to-r from-green-100 to-emerald-400 py-16 px-4 md:px-12">
+    <section className="bg-gradient-to-r from-white to-white py-16 px-4 md:px-12">
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Left Image */}
         <div className="flex-1">

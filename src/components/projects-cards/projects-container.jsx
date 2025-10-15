@@ -5,8 +5,8 @@ import "./project.css";
 export default function AlumniHero() {
   return (
     <>
-    <div className="w-full h-36 bg-[#277056]"></div>
-    <section className="relative bg-[#277056] min-h-[450px] h-[420px] pt-[180px]  flex items-center">
+    <div className="w-full h-36 bg-[#ffffff]"></div>
+    <section className="relative bg-[#ffffff] min-h-[450px] h-[420px] pt-[180px]  flex items-center">
       {/* Animated SVG Wave Lines */}
       <svg
         className="absolute left-0 top-0 w-full h-full z-0 pointer-events-none"
@@ -34,14 +34,14 @@ export default function AlumniHero() {
         {/* <div className="text-[#EDEFEF] tracking-widest uppercase text-sm mb-3">
           Featured Work
         </div> */}
-        <h1 className="text-5xl font-extrabold text-white leading-tight mb-5">
+        <h1 className="text-5xl font-extrabold text-green-900 leading-tight mb-5">
           <span className="text-6xl"></span>
           Shaping Communities<br />
            Through Our Current  <br />
           Projects 
           <span className="text-6xl"></span>
         </h1>
-        <p className="text-[#CFE0DB]  text-1xl mb-6 max-w-xl">
+        <p className="text-green-900  text-1xl mb-6 max-w-xl">
           Samrudhi is dedicated to playing a pivotal role in building and nurturing sustainable communities
         </p>
         {/* <button className="rounded-full bg-[#F3EEE7] text-[#232323] font-semibold px-8 py-3 shadow hover:bg-[#E1D1B7] transition-all duration-200">

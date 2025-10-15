@@ -3,7 +3,7 @@ import AboutUsImageModern from "../../components/assets/modernhomeaboutus.jpg";
 
 export default function SustainableEnergyHero() {
   return (
-    <div className="flex items-center justify-between min-h-screen bg-gradient-to-r from-green-100 to-emerald-400 px-12 pt-16">
+    <div className="flex items-center justify-between min-h-screen bg-gradient-to-r from-white to-gray-100 px-12 pt-16">
       {/* Left Content */}
       <div className="max-w-lg space-y-6 ml-14 mt-5">
         {/* <h2 className="text-white text-3xl font-light mb-2">Save the world!</h2> */}

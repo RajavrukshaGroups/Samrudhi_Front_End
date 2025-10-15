@@ -46,7 +46,7 @@ const KeyConcept = () => {
   ]
   
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329] ">
+    <main className="min-h-screen bg-gradient-to-br from-[#ffffff] via-[#ffffff] to-[#ffffff] ">
       <div className="grid lg:grid-cols-2 min-h-[450px]">
         {/* Left Section */}
         <div className="relative flex items-center justify-center p-8 lg:p-16">
@@ -66,7 +66,7 @@ const KeyConcept = () => {
               Empowering Values for a Better Future
             </h1>
             {/* Features Grid */}
-            <div className="relative bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 lg:p-12">
+            <div className="relative bg-gradient-to-br from-green-200 to-emerald-50 rounded-2xl p-8 lg:p-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
                
                 {features.map((feature, index) => (

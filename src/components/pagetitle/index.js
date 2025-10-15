@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FadeContent from "../../utils/FadeContent";
-import Plumeria_logo from "../../components/assets/Plumeria_upd_new_logo.png";
-import plumeria_kannada_logo from "../../components/assets/Plumeria_Kannada_Logo.png";
+import Plumeria_logo from "../../components/assets/Aarika-removebg-preview.png";
+import plumeria_kannada_logo from "../../components/assets/Aarika-removebg-preview.png";
 import Sylvan_logo from "../../components/assets/Sylvan-official-logo.png";
 import sylvan_kannada_logo from "../../components/assets/Sylvan_Retreat_Kannada_Logo.png";
 import Econest_logo from "../../components/assets/Econest-official-logo.png";

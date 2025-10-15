@@ -27,7 +27,7 @@ const About = ({ text, readMore }) => {
   };
   return (
    <div
-      className="about-area bg-gradient-to-r from-green-100 to-emerald-400"
+      className="about-area bg-gradient-to-r from-white to-gray-100"
       style={{
         userSelect: "none",
         backgroundSize: "cover",

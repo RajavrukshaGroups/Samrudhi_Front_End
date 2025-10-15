@@ -3,7 +3,8 @@ import CommitmentImg from "../../components/assets/commitmentsimage.jpg"
 
 export default function TrustSection() {
   return (
-    <section className="bg-gradient-to-r from-green-100 to-emerald-300 py-16 px-6 flex flex-col lg:flex-row items-center lg:items-start gap-12 pl-56">
+    // <section className="bg-gradient-to-r from-green-100 to-emerald-300 py-16 px-6 flex flex-col lg:flex-row items-center lg:items-start gap-12 pl-56">
+    <section className="bg-gradient-to-r from-white to-white py-16 px-6 flex flex-col lg:flex-row items-center lg:items-start gap-12 pl-56">
       {/* Left: Headings & Features */}
             <div className="flex-1 w-full max-w-xl">
                 <h2 className="text-5xl font-bold leading-tight text-gray-900 mb-5 ">Our Commitment to Excellence</h2>

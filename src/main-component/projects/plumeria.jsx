@@ -1,8 +1,8 @@
 import React, { Fragment, Suspense, useEffect, useState } from "react";
 import Header from "../../components/header";
 import bg from "../../components/assets/plumeria3.webp";
-import bgImg1 from "../../components/assets/plumeria3.webp";
-import bgImg2 from "../../components/assets/plumeria1.webp";
+import bgImg1 from "../../components/assets/aaricaone.jpg";
+import bgImg2 from "../../components/assets/aaricaone.jpg";
 import land_overview from "../../components/assets/land_overview.png";
 import plot_overview from "../../components/assets/plot_overview.png";
 import amenity_overview from "../../components/assets/amenity_overview.png";

@@ -4,7 +4,7 @@
   padding: 2rem;
   font-family: Arial, sans-serif;
   /* background-color: bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329]; */
-    background: linear-gradient(to bottom right, #4a5240, #3d4436, #2d3329);
+    /* background: linear-gradient(to bottom right, #4a5240, #3d4436, #2d3329); */
 
 }
 
@@ -41,7 +41,7 @@
   /* background-color: white; */
   border-radius: 10px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2); /* same as bg-black/20 */
+  background-color: rgb(245, 245, 245); /* same as bg-black/20 */
   backdrop-filter: blur(4px); /* same as backdrop-blur-sm */
 
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
@@ -66,14 +66,14 @@
 
 .project-subtitle {
   font-family: Arial, Helvetica, sans-serif;
-  color:#fdd372;
+  color:#0d4700;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0rem;
 }
 .project-subtitle-keyConcept {
   font-family: Arial, Helvetica, sans-serif;
-  color:#fdd372;
+  color:#004316;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 3rem;
