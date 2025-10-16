@@ -10,6 +10,7 @@ import Brochure from "../../components/assets/RRPL_Brochure_new.pdf";
 import PHSBgImg from "../../components/assets/protwo.jpg"
 import ContactModal from "../Modal/contactModal";
 // import DHS_Logo from "../../components/assets/"
+import ProjectCard from "../projects-cards/projects-cards";
 import "./style.css";
 
 const ProjectListNew = () => {
@@ -53,52 +54,10 @@ const ProjectListNew = () => {
   ];
 
   return (
-    <section className="projects-area">
-      <div className="container">
-        <div className="site-heading">
-          <p className="main-subtitle">OUR PROJECTS</p>
-          <h2 className="main-title">Featured Work</h2>
-        </div>
-        <div className="download-projects-brochure">
-          <a
-            onClick={handleOpenModal}
-            className="btn btn-primary download-btn-new"
-          >
-            Download Brochure
-          </a>
-        </div>
-        <div className="project-box-container">
-          {projects.map((project, index) => (
-            <div
-              className="project-box"
-              key={index}
-              onClick={() => handleProjectClick(project.title)}
-            >
-              <div className="project-logo">
-                <img src={project.logo} alt={`${project.title} Logo`} />
-              </div>
-              <img
-                src={project.img}
-                alt={project.title}
-                className="project-image"
-              />
-              <div className="project-content">
-                <p>{project.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      {showModal && (
-        <ContactModal
-          show={showModal}
-          handleClose={handleCloseModal}
-          onSubmitSuccess={handleDownloadBrochure}
-          project="Download Brochure"
-        />
-      )}
-    </section>
-  );
+    <>
+    <ProjectCard/>
+    </>
+     );
 };
 
 export default ProjectListNew;

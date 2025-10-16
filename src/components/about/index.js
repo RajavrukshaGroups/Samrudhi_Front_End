@@ -11,6 +11,10 @@ import FadeContent from "../../utils/FadeContent";
 import ShinyText from "../../utils/shinyButtons";
 import BlurText from "../../utils/BlurText";
 import VariableProximity from "../../utils/VariableProximity";
+import MarqueeBanner from "../non-stop-slider/non-stop-slider";
+import SolarOverview from "../vision-mision/vision-mision";
+import AboutUSMISSION from "../about-us-mission/about-us-mission";
+import AboutUsImageModern from "../../components/assets/modernhomeaboutus.jpg";
 
 const About = ({ text, readMore }) => {
   const disableContextMenu = (e) => {
@@ -22,22 +26,22 @@ const About = ({ text, readMore }) => {
     console.log("All letters have animated!");
   };
   return (
-    <div
-      className="about-area"
+   <div
+      className="about-area bg-gradient-to-r from-white to-gray-100"
       style={{
         userSelect: "none",
-        backgroundImage: `url(${AboutBgImg})`,
-      }}
-    >
-      <div className="container">
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }} >
+      <div className="container ">
         <div className="row align-items-center">
-          <div className="col-lg-5 col-md-6">
-            <div
+          {/* <div className="col-lg-5 col-md-6"> */}
+            {/* <div
               className="about-left"
               data-aos="fade-right"
               data-aos-offset="100"
-            >
-              <div className="site-heading">
+            > */}
+              {/* <div className="site-heading">
                 <FadeContent
                   blur={true}
                   duration={1000}
@@ -45,14 +49,14 @@ const About = ({ text, readMore }) => {
                   initialOpacity={0}
                 >
                   <h2 className="explore-title text-capitalize ">
-                    We explore to discover your optimal selection
+                    We strive to uncover the perfect choice for you
                   </h2>
                 </FadeContent>
                 <div>
                   <p>{text}</p>
                 </div>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className="content"
                 style={{
                   display: "flex",
@@ -60,73 +64,10 @@ const About = ({ text, readMore }) => {
                   alignItems: "center",
                 }}
               >
-                <div className="features-list-wrapper">
-                  <ul className="features-list">
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Innovative Concepts
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />
-                      Value For Money Projects
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Expert Team Members
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Affordable Quality Services
-                    </li>
-                    <li>
-                      <FontAwesomeIcon
-                        className="check-icon"
-                        icon={faCircleCheck}
-                      />{" "}
-                      Hassle Free Process
-                    </li>
-                  </ul>
-                  <div className="mobile-read-more-wrapper">
-                    <Link to="/about">
-                      {!!readMore && (
-                        <button className="read-more-button">
-                          <ShinyText
-                            text="Read More"
-                            disabled={false}
-                            speed={3}
-                            className="project-button-wrapper"
-                          />
-                        </button>
-                      )}
-                    </Link>
-                  </div>
-                </div>
-                <div className="experience-box">
-                  <h2 className="experience-years">
-                    <span className="counter">
-                      <CountUp start={0} end={6} duration={2} />+
-                    </span>
-                  </h2>
-                  <p className="experience-text">
-                    Years of <br /> experience
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 offset-lg-1 col-md-6">
+              </div> */}
+            {/* </div> */}
+          {/* </div> */}
+          {/* <div className="col-lg-6 offset-lg-1 col-md-6">
             <div className="about-counter"></div>
             <div
               className="about-right"
@@ -134,9 +75,9 @@ const About = ({ text, readMore }) => {
               data-aos-offset="100"
               onContextMenu={disableContextMenu}
             >
-              <img style={{width:'400px'}} className="about_img_2" src={'https://images.pexels.com/photos/15743362/pexels-photo-15743362/free-photo-of-facade-of-residential-building.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} alt="img" />
+              <img style={{width:'400px'}} className="about_img_2" src={AboutUsImageModern} alt="img" />
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-lg-6 col-md-12 vision-new">
               <div
@@ -160,10 +101,11 @@ const About = ({ text, readMore }) => {
                       </div>
                     </h2>
                     <p>
+
                       <div ref={containerRef} style={{ position: "relative" }}>
                         <VariableProximity
                           label={
-                            "To be the premier agency for sustainable and profitable farm land investments, shaping the future of agriculture."
+                            "As aspiring trailblazers in innovative real estate development, we seek to integrate avant-garde design, sustainability, and strategic planning to create environments that inspire connection through environmentally conscious building technologies, nurture growth, and foster investments that yield perpetual growth and prosperity."
                           }
                           className={"variable-proximity-demo"}
                           fromFontVariationSettings="'wght' 350, 'opsz' 9"
@@ -213,7 +155,7 @@ const About = ({ text, readMore }) => {
                       <div ref={containerRef} style={{ position: "relative" }}>
                         <VariableProximity
                           label={
-                            "We provide expert real estate services, guiding clients in acquiring, selling, and investing in farm land with a focus on sustainability and long-term growth."
+                            "At Samrudhi, our mission is to be the catalyst for realizing the dreams and aspirations of our clients, creating value through expert guidance, innovative solutions, and unwavering integrity. We are committed to redefining the real estate experience by providing personalized service, fostering community growth, and embracing sustainable practices."
                           }
                           className={"variable-proximity-demo"}
                           fromFontVariationSettings="'wght' 350, 'opsz' 9"

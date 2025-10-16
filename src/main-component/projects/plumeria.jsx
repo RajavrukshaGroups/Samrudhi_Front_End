@@ -1,8 +1,8 @@
 import React, { Fragment, Suspense, useEffect, useState } from "react";
 import Header from "../../components/header";
 import bg from "../../components/assets/plumeria3.webp";
-import bgImg1 from "../../components/assets/plumeria3.webp";
-import bgImg2 from "../../components/assets/plumeria1.webp";
+import bgImg1 from "../../components/assets/aaricaone.jpg";
+import bgImg2 from "../../components/assets/aaricaone.jpg";
 import land_overview from "../../components/assets/land_overview.png";
 import plot_overview from "../../components/assets/plot_overview.png";
 import amenity_overview from "../../components/assets/amenity_overview.png";
@@ -11,6 +11,7 @@ import plumeria_2 from "../../components/assets/plumeria_2.webp";
 import plumeria_3 from "../../components/assets/plumeria_3.webp";
 import plumeria_4 from "../../components/assets/plumeria_4.webp";
 import plumeria_5 from "../../components/assets/plumeria_5.webp";
+import Navbar from "../../components/navbar/navbar";
 import { Helmet } from "react-helmet";
 import "../AboutPage/loading.css";
 import "./pro-plumeria.css";
@@ -92,13 +93,13 @@ const PlumeriaMain = () => {
         <meta name="description" content={description} />
         <meta property="og:title" content={ogTitle} />
         <meta property="og:description" content={ogDescription} />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-        />
+        /> */}
         <meta property="og:url" content={ogUrl} />
       </Helmet>
-      <Header />
+      <Navbar />
       <Suspense
         fallback={
           <div>

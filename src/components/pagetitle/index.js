@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FadeContent from "../../utils/FadeContent";
-import Plumeria_logo from "../../components/assets/Plumeria_upd_new_logo.png";
-import plumeria_kannada_logo from "../../components/assets/Plumeria_Kannada_Logo.png";
+import Plumeria_logo from "../../components/assets/Aarika-removebg-preview.png";
+import plumeria_kannada_logo from "../../components/assets/Aarika-removebg-preview.png";
 import Sylvan_logo from "../../components/assets/Sylvan-official-logo.png";
 import sylvan_kannada_logo from "../../components/assets/Sylvan_Retreat_Kannada_Logo.png";
 import Econest_logo from "../../components/assets/Econest-official-logo.png";
@@ -48,6 +48,7 @@ const PageTitle = (props) => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right center",
+        
       }}
     >
       {/* Render buttons only if both bgImg1 and bgImg2 exist */}
@@ -83,14 +84,32 @@ const PageTitle = (props) => {
                   />
                 </div>
               ) : (
+                // <FadeContent
+                //   blur={true}
+                //   duration={1000}
+                //   easing="ease-out"
+                //   initialOpacity={0}
+                // >
+                //   <h1 style={{color:'#FDE047'}}>{props.PageTitle}</h1>
+                // </FadeContent>
                 <FadeContent
-                  blur={true}
-                  duration={1000}
-                  easing="ease-out"
-                  initialOpacity={0}
-                >
-                  <h1>{props.PageTitle}</h1>
-                </FadeContent>
+                blur={true}
+                duration={1000}
+                easing="ease-out"
+                initialOpacity={0}
+              >
+                <h1
+                style={{
+                  color: 'white',           // changes text color to green
+                  fontFamily: 'Arial, sans-serif',
+                  fontWeight: 'bold',
+                  letterSpacing: '-0.5px',  // reduces space between letters; adjust value as needed
+                  fontSize: '54px',  
+                }}
+              >
+                {props.PageTitle}
+              </h1>
+              </FadeContent>
               )}
 
               <FadeContent

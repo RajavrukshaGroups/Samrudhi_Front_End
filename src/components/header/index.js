@@ -52,24 +52,21 @@ const Header = () => {
                     <li>
                       <Link to="/">Home</Link>
                     </li>
-                    <li>
-                      <Link to="/about">About</Link>
-                    </li>
-                    <li>
+                 
+                    {/* <li>
                       <Link to="/projects">Projects</Link>
                       <ul>
                         <li>
                           <Link to="/sylvan-retreat">Sylvan-Retreat</Link>
                         </li>
-                        {/* <li>
-                          <Link to="/eco-nest">Eco-nest</Link>
-                        </li> */}
+                      
                         <li>
                           <Link to="/plumeria">Plumeria</Link>
                         </li>
                       </ul>
-                    </li>
-                    <li>
+                    </li> */}
+
+                    {/* <li>
                       <Link to="/careers">Career</Link>
                       <ul>
                         {careers.map((career) => {
@@ -85,18 +82,18 @@ const Header = () => {
                           );
                         })}
                       </ul>
-                    </li>
+                    </li> */}
 
-                    <li>
+                    {/* <li>
                       <Link to="/contact">Contact</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </div>
               <div class="site"></div>
               <div className="wrapper">
                 <a
-                  href="https://www.facebook.com/RajavruskhaRealtors"
+                  // href="https://www.facebook.com/RajavruskhaRealtors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -105,7 +102,7 @@ const Header = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.instagram.com/rajavruksha_realtors/"
+                  // href="https://www.instagram.com/rajavruksha_realtors/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -114,7 +111,7 @@ const Header = () => {
                   </div>
                 </a>
                 <a
-                  href="https://x.com/Rajavrukshagrps"
+                  // href="https://x.com/Rajavrukshagrps"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -127,7 +124,7 @@ const Header = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.youtube.com/@Rajavruksha_Realtors"
+                  // href="https://www.youtube.com/@Rajavruksha_Realtors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

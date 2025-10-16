@@ -1,9 +1,10 @@
 import React from "react";
 import { Oval } from "react-loader-spinner";
-import RRPL_logo from "../../components/assets/RRPL_loader-removebg-new.png";
+// import RRPL_logo from "../../components/assets/RRPL_loader-removebg-new.png";
+import RRPL_logo from "../../components/assets/samrudhi_logo_half_cut.png";
 import "./loader.css";
 
-const Loader = ({ color = "#4fa94d", secondaryColor = "#4fa94d", logo }) => {
+const Loader = ({ color = "#006400", secondaryColor = "#4fa94d", logo }) => {
   return (
     <div
       className={`loader ${logo ? "loader-with-logo" : "loader-default-bg"}`}
@@ -11,7 +12,7 @@ const Loader = ({ color = "#4fa94d", secondaryColor = "#4fa94d", logo }) => {
       {!!logo ? (
         <div className="spinner-with-logo">
           <img src={RRPL_logo} alt="rrpl_logo" className="loader-logo" />
-          <Oval
+          {/* <Oval
             visible={true}
             height="120"
             width="120"
@@ -20,17 +21,37 @@ const Loader = ({ color = "#4fa94d", secondaryColor = "#4fa94d", logo }) => {
             ariaLabel="oval-loading"
             wrapperStyle={{ position: "absolute" }}
             wrapperClass=""
+          /> */}
+          <Oval
+            visible={true}
+            height="120"
+            width="120"
+            color="#006400"            // green ring color
+            secondaryColor="#006400"   // same green to remove the dual-tone effect
+            ariaLabel="oval-loading"
+            wrapperStyle={{ position: "absolute" }}
+            wrapperClass=""
           />
         </div>
       ) : (
+        // <Oval
+        //   visible={true}
+        //   height="80"
+        //   width="80"
+        //   color={color}
+        //   secondaryColor={secondaryColor}
+        //   ariaLabel="oval-loading"
+        //   wrapperStyle={{}}
+        //   wrapperClass=""
+        // />
         <Oval
           visible={true}
-          height="80"
-          width="80"
-          color={color}
-          secondaryColor={secondaryColor}
+          height="120"
+          width="120"
+          color="#006400"            // green ring color
+          secondaryColor="#006400"   // same green to remove the dual-tone effect
           ariaLabel="oval-loading"
-          wrapperStyle={{}}
+          wrapperStyle={{ position: "absolute" }}
           wrapperClass=""
         />
       )}

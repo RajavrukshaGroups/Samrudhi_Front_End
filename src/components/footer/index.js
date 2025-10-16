@@ -28,10 +28,10 @@ const Footer = () => {
                   that aligns with your vision and goals
                 </p>
                 <div className="single-footer connect">
-                  <p id="footer-connect">Connect With Us</p>
-                  <div className="wrapper-footer">
+                  {/* <p id="footer-connect">Connect With Us</p> */}
+                  {/* <div className="wrapper-footer">
                     <a
-                      href="https://www.facebook.com/RajavruskhaRealtors"
+                      // href="https://www.facebook.com/RajavruskhaRealtors"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -41,7 +41,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                      href="https://www.instagram.com/rajavruksha_realtors/"
+                      // href="https://www.instagram.com/rajavruksha_realtors/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -51,7 +51,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                      href="https://x.com/Rajavrukshagrps"
+                      // href="https://x.com/Rajavrukshagrps"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -64,7 +64,7 @@ const Footer = () => {
                       </div>
                     </a>
                     <a
-                      href="https://www.youtube.com/@Rajavruksha_Realtors"
+                      // href="https://www.youtube.com/@Rajavruksha_Realtors"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -72,7 +72,7 @@ const Footer = () => {
                         <i className="fab fa-youtube social youtube fa-3x"></i>
                       </div>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -86,16 +86,16 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/projects">Our Projects</Link>
+                    {/* <Link to="/projects">Our Projects</Link> */}
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
+                    {/* <Link to="/contact">Contact</Link> */}
                   </li>
                   <li>
-                    <Link to="/careers">Careers</Link>
+                    {/* <Link to="/careers">Careers</Link> */}
                   </li>
                   <li>
-                    <Link to="/privacyPolicy">Privacy Policy</Link>
+                    {/* <Link to="/privacyPolicy">Privacy Policy</Link> */}
                   </li>
                 </ul>
               </div>
@@ -123,7 +123,7 @@ const Footer = () => {
                   onClick={() => handleLinkClick("phone", "+91 8549 955 955")}
                   className="contact-link"
                 >
-                  <i className="fas fa-phone-square-alt" /> +91 8549 955 955
+                  {/* <i className="fas fa-phone-square-alt" /> +91 8549 955 955 */}
                 </li>
                 <li
                   onClick={() =>
@@ -132,9 +132,9 @@ const Footer = () => {
                   className="contact-link"
                   style={{ marginTop: "10px" }}
                 >
-                  <i className="fas fa-envelope" /> enquiry@rajavrukshagroup.in
+                  {/* <i className="fas fa-envelope" /> enquiry@rajavrukshagroup.in */}
                 </li>
-                <li
+                {/* <li
                   onClick={() => {
                     handleLinkClick("map", "Rajavruksha Groups");
                   }}
@@ -143,7 +143,7 @@ const Footer = () => {
                 >
                   <i className="fas fa-map" /> #35 A, Kowdi, 2nd Floor, 1st Main
                   Road, Chiranjeevi Layout, Hebbal Kempapura, Bengaluru-560024
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -157,7 +157,7 @@ const Footer = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-auto">
               <p className="foote-copyright">
-                Copyright © {new Date().getFullYear()} Rajavruksha All rights
+                Copyright © {new Date().getFullYear()}  All rights
                 reserved.
               </p>
             </div>

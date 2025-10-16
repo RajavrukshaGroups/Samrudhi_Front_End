@@ -1,12 +1,15 @@
 import React, { Fragment, Suspense, useEffect } from "react";
 import Header from "../../components/header";
 // import bg from "../../components/assets/new_project.webp";
-import bg from "../../components/assets/proone.jpg";
+import bg from "../../components/assets/projects_images.jpg";
 import { Helmet } from "react-helmet";
 import { updateMetaTags } from "../../utils/updateMetaTags";
 import "../AboutPage/loading.css";
 import Loader from "../../components/Loader/loader";
-
+import Navabar from "../../components/navbar/navbar";
+import ProjectCardContainer from "../../components/projects-cards/projects-container";
+import ProjectIconic from "../../components/projects-cards/projects-iconic"
+// import ProjectList from "../../../src/main-component/ProjectsPageNew/index";
 const PageTitle = React.lazy(() => import("../../components/pagetitle"));
 const ProjectListNew = React.lazy(() => import("../../components/ProjectListNew"));
 const Footer = React.lazy(() => import("../../components/footer"));
@@ -31,6 +34,7 @@ const ProjectPageNew = () => {
   }, [title, description, ogTitle, ogDescription, ogUrl]);
 
   return (
+
     <Fragment>
       <Helmet>
         <title>{title}</title>
@@ -49,7 +53,7 @@ const ProjectPageNew = () => {
         <meta name="twitter:image" content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png" /> */}
      
       </Helmet>
-      <Header />
+      <Navabar />
       <Suspense
         fallback={
           <div>
@@ -57,8 +61,10 @@ const ProjectPageNew = () => {
           </div>
         }
       >
-        <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={bg} />
-        <ProjectListNew />
+        {/* <PageTitle PageTitle={"PROJECTS"} pagesub={"Projects"} pageImg={'https://images.pexels.com/photos/5185155/pexels-photo-5185155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'} /> */}
+        <ProjectCardContainer />
+        <ProjectIconic />
+        {/* <ProjectListNew /> */}
         <Footer />
       </Suspense>
     </Fragment>

@@ -11,7 +11,7 @@ import AboutPage from "../AboutPage";
 import ProjectPage from "../ProjectPage";
 import ProjectSinglePage from "../ProjectSinglePage";
 import ServicePage from "../ServicePage";
-import ContactPage from "../ContactPage";
+import ContactPage from "../../components/contact-us/contact-us.jsx";
 import ErrorPage from "../ErrorPage";
 import ExperienceSection from "../../components/demo/experienceSection.jsx";
 import SylvanRetreat from "../../main-component/projects/sylvanretreat";
@@ -34,8 +34,11 @@ import  HeroScrollDemo  from "../../components/BlogList/index.js";
 import SylvanRetreatNew from "../projects/sylvanRetreatNew.jsx";
 import ProjectPageNew from "../ProjectsPageNew/index.js";
 import EcoNestNewMain from "../projects/EcoNestNewMain.jsx";
+import DhsLandingPage from "../../components/dhs_landingpage/dhs_landingpage.jsx";
+
 
 const RoutesWithLoader = () => {
+  
   const [loading, setLoading] = useState(false);
   const location = useLocation();  
 
@@ -45,7 +48,6 @@ const RoutesWithLoader = () => {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000); // Adjust delay to match your content loading time
-
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
@@ -53,7 +55,7 @@ const RoutesWithLoader = () => {
     <>
       {/* {loading && (
         <Loader logo={true} color="#C1933C" secondaryColor="#C1933C" />
-      )} */}
+      )} */}                  
       <Routes>
         {/* <Route path="/toatify" element={<ToastContainer />} /> */}
         <Route path="/" element={<Homepage />} />
@@ -78,6 +80,7 @@ const RoutesWithLoader = () => {
         {/* <Route path="/amenities" element={<Amenities />} /> */}
         <Route path="/privacyPolicy" element={<MainPrivacyPolicy />} />
         <Route path="/aceternity" element={<HeroScrollDemo />} />
+        <Route path="/dhs-landingpage" element={<DhsLandingPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
@@ -89,13 +92,13 @@ const RoutesWithLoader = () => {
         return (
           <>
           <div>
-              <FloatingIcons />
+              {/* <FloatingIcons /> */}
                <Router>
-            {/* <button onClick={notify}>Notify!</button> */}
+              {/* <button onClick={notify}>Notify!</button> */}
               {/* <TawkMessengerReact
                           propertyId="66d2d5ab50c10f7a00a26593"
                           widgetId="1i70srim4"
-                          /> */}
+                          /> */}                 
                   <ScrollToTop />
                   <RoutesWithLoader />
             </Router>

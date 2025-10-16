@@ -1,9 +1,11 @@
 .projects-container-new {
   min-height: 0vh;
-  background: white;
+  /* background: white; */
   padding: 2rem;
   font-family: Arial, sans-serif;
-  margin-top: 1rem;
+  /* background-color: bg-gradient-to-br from-[#4a5240] via-[#3d4436] to-[#2d3329]; */
+    /* background: linear-gradient(to bottom right, #4a5240, #3d4436, #2d3329); */
+
 }
 
 .projects-content {
@@ -21,22 +23,42 @@
 
 /* Flex container for two projects */
 .projects-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 2rem;
+   padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+   /* flex-wrap: wrap;
+   margin-top: 1rem; */
+   /* justify-content: center; */           
 }
 
 .project-card {
   flex: 1 1 calc(50% - 2rem);
   max-width: 480px;
   padding: 15px;
-  background-color: white;
   border-radius: 10px;
   text-align: center;
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  background-color: rgb(245, 245, 245);
+  backdrop-filter: blur(4px);
+  transform: none;
+  transition: none;
 }
+
+
+/* .project-card {
+  flex: 1 1 calc(50% - 2rem);
+  max-width: 480px;
+  padding: 15px;
+
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(245, 245, 245); 
+  backdrop-filter: blur(4px);
+
+ 
+} */
 
 /* Image container */
 .project-image-container {
@@ -54,17 +76,25 @@
   border-radius: 10px;
 }
 
+
 .project-subtitle {
   font-family: Arial, Helvetica, sans-serif;
-  color: #004d40;
+  color:#0d4700;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0rem;
 }
+.project-subtitle-keyConcept {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#004316;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
 
 .project-description {
   font-size: 17px;
-  color: #333;
+  color:#d4a843;
   margin-bottom: 0.5rem;
 }
 

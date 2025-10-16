@@ -54,7 +54,6 @@ class Hero extends Component {
                <video
                 autoPlay
                 loop  
-
                 muted
                 style={{
                   position: "absolute",
@@ -84,10 +83,10 @@ class Hero extends Component {
                       Prosperous Tomorrow
                     </h2>
                     <div className="hero-action">
-                      <Link to="/projects" className="cta-btn btn-border">
+                      <Link to="/project" className="cta-btn btn-border">
                         See Projects
                       </Link>
-                      <Link to="/contact" className="cta-btn btn-border">
+                      <Link to="/contac" className="cta-btn btn-border">
                         Get Contact
                       </Link>
                     </div>

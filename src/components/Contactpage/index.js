@@ -134,10 +134,10 @@ const Contactpage = ({ requestAquote }) => {
                     <p
                       className="email-link"
                       onClick={() =>
-                        handleLinkClick("email", "enquiry@rajavrukshagroup.in")
+                        handleLinkClick("email", "enquiry@samrudhi.in")
                       }
                     >
-                      enquiry@rajavrukshagroup.in
+                      enquiry@samrudhi.in
                     </p>
                   </div>
                 </div>

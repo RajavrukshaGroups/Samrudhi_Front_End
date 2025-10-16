@@ -31,14 +31,14 @@ const FloatingIcons = () => {
             <div
               className="icon phone"
               data-tooltip="Call Us"
-              onClick={() => handleClick("phone", "+91 8549 955 955")}
+              // onClick={() => handleClick("phone", "+91 8549 955 955")}
             >
               <FaPhoneAlt />
             </div>
             <div
               className="icon whatsapp"
               data-tooltip="WhatsApp"
-              onClick={() => handleClick("whatsapp", "+91 8549 955 955")}
+              // onClick={() => handleClick("whatsapp", "+91 8549 955 955")}
             >
               <FaWhatsapp />
             </div>

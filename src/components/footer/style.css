@@ -100,7 +100,8 @@
 }
 
 .footer-top {
-  background: #0b3d2c;
+   background: linear-gradient(to bottom right, #000000, #0f0d0d, #000000);
+
   padding: 70px 0;
 }
 
@@ -314,7 +315,7 @@ ul.footer-contact {
 
 .copyright {
   padding: 21px 0;
-  background: #b79641;
+  background:  linear-gradient(to bottom right, #010810, #000000, #000000);
   display: flex;
   justify-content: space-between;
   align-items: center;

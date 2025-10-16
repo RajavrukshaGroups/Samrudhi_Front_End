@@ -71,22 +71,7 @@ const EcoNestNewMain = () => {
         <meta name="description" content={description} />
         <meta property="og:title" content={ogTitle} />
         <meta property="og:description" content={ogDescription} />
-        <meta
-          property="og:image"
-          content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-        />
-        <meta property="og:url" content={ogUrl} />
-        {/* <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Eco-Nest - Sustainable Green Living" />
-        <meta
-          name="twitter:description"
-          content="Invest in Eco-Nest for a sustainable, green lifestyle with premium farmlands and eco-friendly living spaces."
-        />
-        <meta
-          name="twitter:image"
-          content="https://rajavrukshagroup.in/wp-content/uploads/2024/05/RRPL-Horizontal_Final.png"
-        /> */}
-        {/* <link rel="icon" href="/web_logo_new.png" type="image/png" /> */}
+        
       </Helmet>
       <Header />
       <Suspense

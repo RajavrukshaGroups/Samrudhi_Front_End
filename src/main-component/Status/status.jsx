@@ -6,7 +6,7 @@ import VillaIcon from "../../components/assets/villafcht.png";
 
 function Status() {
   return (
-    <div className="projects-container">
+    <div className="projects-container ">
       <div className="projects-box">
         <div className="project-item">
           <img src={AboutIcon} alt="Managed Farmland" />
