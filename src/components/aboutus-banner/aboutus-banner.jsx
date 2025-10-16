@@ -3,56 +3,50 @@ import AboutUsImageModern from "../../components/assets/modernhomeaboutus.jpg";
 
 export default function SustainableEnergyHero() {
   return (
-    <div className="flex items-center justify-between min-h-screen bg-gradient-to-r from-white to-gray-100 px-12 pt-16">
-      {/* Left Content */}
-      <div className="max-w-lg space-y-6 ml-14 mt-5">
-        {/* <h2 className="text-white text-3xl font-light mb-2">Save the world!</h2> */}
-        <h1 className="font-bold text-6xl leading-tight ">
-          <span className="text-[#054b16] ">We strive to uncover the </span>
-          {/* <br /> */}
-          <span className="text-green-500">perfect choice for you</span>
-        </h1>
-        <p className="text-gray-900 text-1xl mt-8">
-           At Samrudhi, we are driven by a vision: to create exceptional spaces that inspire, endure, and
-elevate the way people live and invest. We are committed to shaping inspired living through
-visionary developments and bespoke real estate solutions.
-        </p>
-        {/* <button className="bg-[#b3ff2d] text-[#13271c] px-8 py-3 rounded-full font-bold shadow-md transition hover:bg-[#97ce24] mt-3">
-          EXPLORE NOW!
-        </button> */}
-      </div>
+    <div className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen bg-gradient-to-r from-white to-gray-100 px-6 md:px-12 pt-10 md:pt-16">
+  {/* Left Content */}
+  <div className="max-w-lg space-y-6 mt-8 md:mt-5 md:ml-14 text-center md:text-left">
+    <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl leading-tight">
+      <span className="text-[#054b16]">We strive to uncover the </span>
+      <span className="text-green-500">perfect choice for you</span>
+    </h1>
+    <p className="text-gray-900 text-base sm:text-lg mt-6 md:mt-8 px-3 md:px-0">
+      At Samrudhi, we are driven by a vision: to create exceptional spaces that inspire,
+      endure, and elevate the way people live and invest. We are committed to shaping
+      inspired living through visionary developments and bespoke real estate solutions.
+    </p>
+  </div>
 
-      {/* Right Globe + Rotating Lines */}
-      <div className="relative flex justify-center items-center w-[400px] h-[400px] mr-28">
-        {/* Rotating SVG Concentric Circles */}
-        <span className="absolute inset-0 flex items-center justify-center pointer-events-none rotate-lines">
-          <svg width="400" height="400" viewBox="0 0 400 400" fill="none">
-            <circle cx="200" cy="200" r="195" stroke="white" strokeOpacity="0.15" strokeWidth="2"/>
-            <circle cx="200" cy="200" r="170" stroke="white" strokeOpacity="0.10" strokeWidth="1.5"/>
-            <circle cx="200" cy="200" r="145" stroke="white" strokeOpacity="0.07" strokeWidth="1"/>
-            <circle cx="200" cy="200" r="120" stroke="white" strokeOpacity="0.06" strokeWidth="0.7"/>
-          </svg>
-        </span>
-        {/* Globe Image */}
-        <img
-          src={AboutUsImageModern}
-          alt="Sustainable Energy Globe"
-          className="w-[330px] h-[330px] rounded-full object-cover z-10 border-4 border-[#172917] shadow-2xl"
-          style={{ boxShadow: "0 0 40px 10px #0008" }}
-        />
-      </div>
-      {/* Custom CSS for rotating animation */}
-      <style jsx>{`
-        .rotate-lines {
-          animation: rotate 8s linear infinite;
-        }
-        @keyframes rotate {
-          100% {
-            transform: rotate(360deg);
-          }
-        }
-      `}</style>
-    </div>
+  {/* Right Globe + Rotating Lines */}
+  <div className="relative flex justify-center items-center w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] mt-10 md:mt-0 md:mr-28">
+    <span className="absolute inset-0 flex items-center justify-center pointer-events-none rotate-lines">
+      <svg viewBox="0 0 400 400" fill="none" className="w-full h-full">
+        <circle cx="200" cy="200" r="195" stroke="white" strokeOpacity="0.15" strokeWidth="2"/>
+        <circle cx="200" cy="200" r="170" stroke="white" strokeOpacity="0.10" strokeWidth="1.5"/>
+        <circle cx="200" cy="200" r="145" stroke="white" strokeOpacity="0.07" strokeWidth="1"/>
+        <circle cx="200" cy="200" r="120" stroke="white" strokeOpacity="0.06" strokeWidth="0.7"/>
+      </svg>
+    </span>
+    <img
+      src={AboutUsImageModern}
+      alt="Sustainable Energy Globe"
+      className="w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] md:w-[330px] md:h-[330px] rounded-full object-cover z-10 border-4 border-[#172917] shadow-2xl"
+      style={{ boxShadow: "0 0 40px 10px #0008" }}
+    />
+  </div>
+
+  <style jsx>{`
+    .rotate-lines {
+      animation: rotate 8s linear infinite;
+    }
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  `}</style>
+</div>
+
   );
 }
 
