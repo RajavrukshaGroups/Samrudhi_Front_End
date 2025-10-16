@@ -70,7 +70,7 @@ export default function Testimonials() {
   const visibleTestimonials = getVisibleTestimonials()
 
   return (
-    <section className="relative min-h overflow-hidden bg-gradient-to-br  py-20">
+    <section className="relative min-h overflow-hidden bg-gradient-to-br  py-0">
       {/* Decorative leaves */}
       <div className="pointer-events-none absolute right-10 top-10 h-32 w-32 opacity-40">
         <img src={PngLeaf} alt="" className="h-full w-full object-contain" />

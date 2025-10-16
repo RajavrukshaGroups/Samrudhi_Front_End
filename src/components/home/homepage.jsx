@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import HeroVideo from "../../components/assets/banner_video.mp4";
+import HeroVideo from "../../components/assets/banner_video_compressed.mp4";
 import Navbar from "../navbar/navbar";
 
 const titles = [
@@ -49,7 +49,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline >
-          <source src={'https://res.cloudinary.com/den0iz8zn/video/upload/v1760420407/banner_video_vdemtg.mp4'} type="video/mp4" />
+          <source src={HeroVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/30"></div>
@@ -57,13 +57,21 @@ const HeroSection = () => {
 
       {/* Main Content */}
       <div className="relative z-10 text-left max-w-5xl w-full mx-auto mt-32 px-4 min-h-[140px]">
-        <h1
+        {/* <h1
           className={`text-6xl font-extrabold text-white leading-tight transition-opacity duration-500 ease-in-out ${
             fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
           } transform w-full`}
         >
           {titles[visibleTitle]}
-        </h1>
+        </h1> */}
+        <h1
+  style={{ fontFamily: "Arial, Helvetica, sans-serif" }}
+  className={`text-5xl font-bold text-white leading-tight transition-opacity duration-500 ease-in-out ${
+    fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+  } transform w-full`}
+>
+  {titles[visibleTitle]}
+</h1>
 
         <div className="mt-8 flex items-center gap-6">
           <a

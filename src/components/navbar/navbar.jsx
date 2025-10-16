@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav items */}
-        <nav className="flex items-center gap-3 h-16 rounded-full bg-black/20 px-6">
+        <nav className="flex items-center gap-3 h-16 rounded-full bg-black/50 px-6">
           <a
             href="/"
             className={`font-medium px-4 py-2 transition hover:text-yellow-300 rounded-full ${

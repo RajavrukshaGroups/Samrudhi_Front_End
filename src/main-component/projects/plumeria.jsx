@@ -31,7 +31,7 @@ const InfiniteMovingCardsDemo = React.lazy(() =>
 );
 
 const PlumeriaAmenities = React.lazy(() =>
-  import("../../components/Amenities/plumeria")
+  import("../../components/aarika_amenities/aarika_amenities")
 );
 const PlumeriaOveriew = React.lazy(() =>
   import("../../components/overview/plumeria/plumeriaOverview")
