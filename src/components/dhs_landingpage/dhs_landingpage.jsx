@@ -213,9 +213,17 @@ const LandingPage = () => {
                   <span className="text-red-600 font-medium">Booking Closed</span>
                 </div>
               </div>
-              <button className="w-full px-6 py-3 bg-[#F3C64E] text-[#18473F] font-bold rounded-full hover:bg-[#e2b843] transition transform hover:scale-105">
+              {/* <button className="w-full px-6 py-3 bg-[#F3C64E] text-[#18473F] font-bold rounded-full hover:bg-[#e2b843] transition transform hover:scale-105">
                 Learn More
-              </button>
+              </button> */}
+              <a
+            href="https://defencehousingsociety.com/projects/tapasihalli"           
+            target="_blank"                     
+            rel="noopener noreferrer"           
+            className="w-full px-6 py-3 bg-[#F3C64E] text-[#18473F] font-bold rounded-full hover:bg-[#e2b843] transition transform hover:scale-105"
+          >
+            Learn More
+          </a>
             </div>
 
             {/* Project 2 */}
@@ -240,9 +248,14 @@ const LandingPage = () => {
                   <span className="text-red-600 font-medium">Fully Booked</span>
                 </div>
               </div>
-              <button className="w-full px-6 py-3 bg-[#F3C64E] text-[#18473F] font-bold rounded-full hover:bg-[#e2b843] transition transform hover:scale-105">
-                Learn More
-              </button>
+              <a
+            href="https://defencehousingsociety.com/projects/marasandra"           
+            target="_blank"                     
+            rel="noopener noreferrer"           
+            className="w-full px-6 py-3 bg-[#F3C64E] text-[#18473F] font-bold rounded-full hover:bg-[#e2b843] transition transform hover:scale-105"
+          >
+            Learn More
+          </a>
             </div>
           </div>
         </div>
@@ -288,9 +301,17 @@ const LandingPage = () => {
             Become part of the Defence Habitat Society and secure your future with us.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-yellow-400 transition transform hover:scale-105">
+            {/* <button className="px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-yellow-400 transition transform hover:scale-105">
               Apply for Membership
-            </button>
+            </button> */}
+            <a
+              href="https://defencehousingsociety.com/online_application"          
+              target="_blank"                    
+              rel="noopener noreferrer"          
+              className="inline-block px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-yellow-400 transition transform hover:scale-105"
+            >
+              Apply for Membership
+            </a>
             <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-[#18473F] transition">
               Contact Our Team
             </button>

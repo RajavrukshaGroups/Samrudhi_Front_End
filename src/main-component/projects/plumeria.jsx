@@ -46,7 +46,7 @@ const PlumeriaMain = () => {
   const ogUrl = "https://rajavrukshagroup.in/sylvan-retreat";
 
   const [counts, setCounts] = useState({
-    acres: 1,
+    acres: 3,
     plots: 1,
     amenities: 1,
   });
@@ -68,12 +68,12 @@ const PlumeriaMain = () => {
       const interval = setInterval(() => {
         start++;
         setCounts((prev) => ({ ...prev, [key]: start }));
-        if (start >= targetValue) clearInterval(interval);
+        if ( start >= targetValue ) clearInterval(interval);
       }, stepTime);
     };
 
-    incrementCounts("acres", 2);
-    incrementCounts("plots", 35);
+    incrementCounts("Years Of Excellence", 3);
+    incrementCounts("plots", 600);
     incrementCounts("amenities", 10);
   }, []);
 
@@ -115,10 +115,24 @@ const PlumeriaMain = () => {
           bgImg1={bgImg1}
           bgImg2={bgImg2}
         />
+        <div>
+          <h1 className="project-name">
+            <FadeContent
+              blur={true}
+              duration={1000}
+              easing="ease-out"
+              initialOpacity={0}
+              >
+              MILESTONES WE ARE PROUD OF
+            </FadeContent>
+          </h1>
+        </div>
+
         <div className="plumeria-icons-overview">
           {[
-            { img: land_overview, label: `${counts.acres} Acres` },
-            { img: plot_overview, label: `${counts.plots}+  Plots` },
+            { img: land_overview, label: `${counts.acres} Years Of Excellence` },
+            { img: plot_overview, label: `${counts.plots}+  Happy Customers` },
+            { img: amenity_overview, label: `${counts.amenities}+  Amenities` },
             { img: amenity_overview, label: `${counts.amenities}+  Amenities` },
           ].map((item, index) => (
             <div key={index} className="icon-box">
@@ -129,8 +143,9 @@ const PlumeriaMain = () => {
               />
               <p className="icon-label">{item.label}</p>
             </div>
-          ))}
+          ))}        
         </div>
+
         <div>
           <h1 className="project-name">
             <FadeContent
