@@ -55,7 +55,7 @@ const RoutesWithLoader = () => {
     <>
       {/* {loading && (
         <Loader logo={true} color="#C1933C" secondaryColor="#C1933C" />
-      )} */}
+      )} */}                  
       <Routes>
         {/* <Route path="/toatify" element={<ToastContainer />} /> */}
         <Route path="/" element={<Homepage />} />

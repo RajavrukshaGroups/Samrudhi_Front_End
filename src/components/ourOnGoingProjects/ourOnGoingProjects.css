@@ -31,21 +31,34 @@
     margin: 0 auto;
    /* flex-wrap: wrap;
    margin-top: 1rem; */
-   /* justify-content: center; */
+   /* justify-content: center; */           
 }
 
 .project-card {
   flex: 1 1 calc(50% - 2rem);
   max-width: 480px;
   padding: 15px;
-  /* background-color: white; */
   border-radius: 10px;
   text-align: center;
-  background-color: rgb(245, 245, 245); /* same as bg-black/20 */
-  backdrop-filter: blur(4px); /* same as backdrop-blur-sm */
-
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  background-color: rgb(245, 245, 245);
+  backdrop-filter: blur(4px);
+  transform: none;
+  transition: none;
 }
+
+
+/* .project-card {
+  flex: 1 1 calc(50% - 2rem);
+  max-width: 480px;
+  padding: 15px;
+
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(245, 245, 245); 
+  backdrop-filter: blur(4px);
+
+ 
+} */
 
 /* Image container */
 .project-image-container {

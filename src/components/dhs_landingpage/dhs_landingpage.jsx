@@ -74,10 +74,10 @@ const LandingPage = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">
             Defence Habitat Society
           </h1>
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed text-white">
+          {/* <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 leading-relaxed text-white">
             A social service organization promoting and facilitating services
-            for Defence and Para Military personnel.
-          </p>
+            for Defence and Para Military personnel as well as common people.
+          </p> */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="px-8 py-4 bg-[#F3C64E] text-[#18473F] font-bold text-lg rounded-full hover:bg-yellow-400 transition transform hover:scale-105 shadow-lg">
               Join Now
@@ -122,10 +122,10 @@ const LandingPage = () => {
                 <strong className="text-[#18473F]">retired officers from the Indian Defence Services</strong>,
                 with active support from experienced professionals from various relevant fields.
               </p>
-              <div className="bg-[#18473F] text-white p-6 rounded-2xl">
+              {/* <div className="bg-[#18473F] text-white p-6 rounded-2xl">
                 <h3 className="text-xl font-bold mb-2 text-white">Our Mission</h3>
                 <p className="text-gray-300">To provide quality housing and community services for our brave defence personnel and their families.</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

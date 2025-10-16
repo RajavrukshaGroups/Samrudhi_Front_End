@@ -11,7 +11,7 @@ import DHSprojects from "../../components/assets/dhs_projectsimg.jpg";
 
 const OngoingProjects = () => {
   return (
-    <div className=" mt-0 responsive ">
+    <div className="mt-0 responsive">
       <div className="flex flex-col overflow-hidden animate-threeD-container">
         <h1 className=" text-1xl font-bold project-subtitle md:text-6xl justify-center flex ">Our Ongoing Projects</h1>
       </div>
@@ -26,7 +26,7 @@ const OngoingProjects = () => {
                 <>
                   {/* <h1 className="project-subtitle text-4xl font-semibold text-black dark:text-white">
                     Sylvan Retreat
-                  </h1> */}
+                  </h1> */}                  
                 </>
               }
             >
@@ -38,7 +38,7 @@ const OngoingProjects = () => {
                 className="mx-auto rounded-2xl object-cover h-full object-left-top"
                 draggable={false}
               />
-            </ContainerScroll>
+            </ContainerScroll>                                                 
           </div>
           <div className="projects-content">
             <FadeContent

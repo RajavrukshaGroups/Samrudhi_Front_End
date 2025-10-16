@@ -18,6 +18,7 @@ const titles = [
 ];
 
 const HeroSection = () => {
+
   const [visibleTitle, setVisibleTitle] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -34,7 +35,7 @@ const HeroSection = () => {
     }, showDuration);
 
     return () => clearTimeout(timer);
-  }, [visibleTitle]);
+  }, [visibleTitle]);                                                    
 
   return (
     <>
