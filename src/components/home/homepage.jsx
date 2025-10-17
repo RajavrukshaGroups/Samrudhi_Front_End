@@ -49,7 +49,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline >
-          <source src={HeroVideo} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/den0iz8zn/video/upload/v1760685081/banner_video_compressed_ckpm1b.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/30"></div>

@@ -395,7 +395,9 @@ ul.footer-contact {
     margin-left: 0;
   }
   .footer-top {
-    background: #0b3d2c;
+    /* background: #0b3d2c; */
+   background: linear-gradient(to bottom right, #000000, #0f0d0d, #000000);
+
     padding: 10px 0;
   }
   .social {

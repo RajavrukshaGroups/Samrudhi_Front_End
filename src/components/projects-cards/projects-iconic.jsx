@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 export default function PojectIconic() {
   return (
     <>
-      <div class="min-h- bg-[#ffffff] py-12 px-4 lg:px-20">
+      <div class="min-h- bg-gradient-to-r from-white to-emerald-100 py-12 px-4 lg:px-20">
         <div class="max-w-7xl mx-auto">
           {/* Main Content Area - Single Column Layout */}
           <div class="bg-[#ffffff] rounded-2xl p-8 shadow-md">

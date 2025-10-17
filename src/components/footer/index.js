@@ -163,7 +163,7 @@ const Footer = () => {
             </div>
             <div className="col-auto footer-credit">
               Designed by{" "}
-              <span className="font-semibold">Digital Elite Services</span>
+              {/* <span className="font-semibold">Digital Elite Services</span> */}
             </div>
           </div>
         </div>

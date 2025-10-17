@@ -5,8 +5,8 @@ import "./project.css";
 export default function AlumniHero() {
   return (
     <>
-    <div className="w-full h-36 bg-[#ffffff]"></div>
-    <section className="relative bg-[#ffffff] min-h-[450px] h-[420px] pt-[180px]  flex items-center">
+    <div className="w-full h-36 bg-gradient-to-r from-white to-emerald-100"></div>
+    <section className="relative bg-gradient-to-r from-white to-emerald-100 min-h-[450px] h-[420px] pt-[180px]  flex items-center">
       {/* Animated SVG Wave Lines */}
       <svg
         className="absolute left-0 top-0 w-full h-full z-0 pointer-events-none"

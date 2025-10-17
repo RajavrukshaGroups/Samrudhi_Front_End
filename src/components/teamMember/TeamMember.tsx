@@ -22,8 +22,8 @@ const TeamMember = ({ name, position, description, image }: TeamMemberProps) => 
     //   </div>
     // </Card>
     <Card className="overflow-hidden border-border bg-team-card hover:shadow-lg transition-all duration-300 
-                 bg-gradient-to-br from-white to-gray-100 
-                 hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50">
+                 bg-gradient-to-br from-white to-purple-100 
+                 hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-200">
   
       <div className="p-6 space-y-4">
         <div>

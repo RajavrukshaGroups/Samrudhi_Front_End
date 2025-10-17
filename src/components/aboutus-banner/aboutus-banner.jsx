@@ -24,11 +24,11 @@ export default function SustainableEnergyHero() {
   const isDesktop = windowWidth === undefined || windowWidth >= 768;
 
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen bg-gradient-to-r px-6 md:px-12 pt-10 md:pt-28">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen bg-gradient-to-r from-white to-emerald-100 px-6 md:px-12 pt-10 md:pt-28">
       {/* Left Content */}
       <div className="max-w-lg space-y-6 ml-14 mt-5">
         <h1 className="font-bold text-6xl leading-tight">
-          <span className="text-[#054b16] project-subtitle">We strive to uncover the </span>
+          <span className="text-[#054b16]">We strive to uncover the </span>
           <span className="text-green-500">perfect choice for you</span>
         </h1>
         <p className="text-gray-900 text-1xl mt-8">
