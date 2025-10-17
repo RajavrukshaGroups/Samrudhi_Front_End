@@ -1,3 +1,4 @@
+import { MapPin, Building2 } from "lucide-react";
 import React, { Fragment, Suspense, useEffect, useState } from "react";
 import Header from "../../components/header";
 import bg from "../../components/assets/plumeria3.webp";
@@ -128,23 +129,31 @@ const PlumeriaMain = () => {
           </h1>
         </div>
 
-        <div className="plumeria-icons-overview">
+      <div className="plumeria-icons-overview">
           {[
             { img: land_overview, label: `${counts.acres} Years Of Excellence` },
-            { img: plot_overview, label: `${counts.plots}+  Happy Customers` },
-            { img: amenity_overview, label: `${counts.amenities}+  Amenities` },
-            { img: amenity_overview, label: `${counts.amenities}+  Amenities` },
-          ].map((item, index) => (
-            <div key={index} className="icon-box">
-              <img
-                src={item.img}
-                alt={item.label}
-                className="overview-main-icon"
-              />
-              <p className="icon-label">{item.label}</p>
-            </div>
-          ))}        
+            { img: plot_overview, label: `${counts.plots}+ Happy Customers` },
+            { icon: MapPin, label: "Developed - Over 1.5 Mn Sqft" },
+            { icon: Building2, label: "Completed Projects - 5+" },
+          ].map((item, index) => {
+            const Icon = item.icon; // ✅ safely store the icon
+            return (
+              <div key={index} className="icon-box text-center">
+                {item.img ? (
+                  <img
+                    src={item.img}
+                    alt={item.label}
+                    className="overview-main-icon"
+                  />
+                ) : Icon ? (
+                  <Icon size={40} className="text-[#000000] mx-auto mb-2" />
+                ) : null}
+                <p className="icon-label">{item.label}</p>
+              </div>
+            );
+          })}
         </div>
+
 
         <div>
           <h1 className="project-name">

@@ -92,7 +92,7 @@ export default function AlumniHero() {
       <div className="lg:hidden flex justify-center items-center absolute right-0 bottom-0 left-0 z-10">
         {/* Place a single grad or stack for mobile below */}
         <img
-          src="/graduation_male.png"
+          src={HomeImg}
           alt="Graduate"
           className="w-32 drop-shadow-xl"
           />

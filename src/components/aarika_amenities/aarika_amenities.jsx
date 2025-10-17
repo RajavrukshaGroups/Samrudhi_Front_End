@@ -1,8 +1,13 @@
 // import { Badge } from "../aarika_amenities/badge";
 // import { Card } from "../aarika_amenities/card";
 import { Diamond, Users, MapPin, Building2, ShieldCheck, Home, TreePine, Zap, Hexagon, Router, ParkingSquare } from "lucide-react";
+// import VariableProximity from "../../../utils/VariableProximity";
+import VariableProximity from "../../utils/VariableProximity"
+import React, {  useRef } from "react";
 
 const Index = () => {
+    const containerRef = useRef(null);
+  
   const milestones = [
     {
       icon: Diamond,
@@ -42,10 +47,23 @@ const Index = () => {
      
       <section className="px- py-1 md:py-24 bg-white from-secondary to-background">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-foreground">
+          {/* <h2 className="text-3xl md:text-5xl font-bold text-center mb-16 text-foreground">
             AMENITIES
           </h2>
-          
+           */}
+           <h1 className="plumeria-title">
+                   <div ref={containerRef} style={{ position: "relative" }}>
+                     <VariableProximity
+                       label={"Amenities"}
+                       className={"variable-proximity-demo"}
+                       fromFontVariationSettings="'wght' 800, 'opsz' 9"
+                       toFontVariationSettings="'wght' 1000, 'opsz' 40"
+                       containerRef={containerRef}
+                       radius={100}
+                       falloff="linear"
+                     />
+                   </div>
+                 </h1>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {amenities.map((amenity, index) => {
               const Icon = amenity.icon;
