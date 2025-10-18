@@ -35,7 +35,7 @@ import SylvanRetreatNew from "../projects/sylvanRetreatNew.jsx";
 import ProjectPageNew from "../ProjectsPageNew/index.js";
 import EcoNestNewMain from "../projects/EcoNestNewMain.jsx";
 import DhsLandingPage from "../../components/dhs_landingpage/dhs_landingpage.jsx";
-import SamrudhiAboutUs from "../../components/samrudhi-aboutus/AboutUs.tsx"
+// import SamrudhiAboutUs from "../../components/samrudhi-aboutus/AboutUs.tsx"
 
 
 const RoutesWithLoader = () => {
@@ -81,7 +81,7 @@ const RoutesWithLoader = () => {
         <Route path="/privacyPolicy" element={<MainPrivacyPolicy />} />
         <Route path="/aceternity" element={<HeroScrollDemo />} />
         <Route path="/dhs-landingpage" element={<DhsLandingPage />} />
-        <Route path="/samrudhi-aboutus" element={<SamrudhiAboutUs />} />
+        {/* <Route path="/samrudhi-aboutus" element={<SamrudhiAboutUs />} /> */}
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

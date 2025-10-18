@@ -11,11 +11,16 @@ export default function ContactCard() {
           {/* Left Section: Headline & Form */}
           <div className="w-full md:w-1/2 md:pr-8">
             <div className="mb-8">
-              <h2 className="text-gray-800 text-3xl md:text-4xl font-bold mb-3 leading-tight">
-                LET'S BUILD SOMETHING <span className="text-gray-600">GREAT TOGETHER</span>
-              </h2>
+              {/* <h2 className="text-gray-800 text-3xl md:text-4xl font-bold mb-3 leading-tight">
+               We’re here to help you . <span className="text-gray-600">make the right choice</span>
+              </h2> */}
+              <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
+  <span className="text-[#054b16] md:text-[40px]">We’re here to help you</span>{' '}
+  <span className="text-green-500 md:text-[40px]">make the right choice</span>
+</h2>
+
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                Connect with us and start your sustainable journey. We're here to help bring your ideas to life.
+                Fill out the form below and our team will get back to you as soon as possible.
               </p>
             </div>
             
@@ -62,7 +67,7 @@ export default function ContactCard() {
                 <div className="flex-1">
                   <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">OUR HUB</p>
                   <p className="text-gray-800 text-sm font-medium">
-                    Bengaluru, Eco-City, CA 90210
+                    Bengaluru, CA 90210
                   </p>
                 </div>
               </div>
@@ -75,7 +80,7 @@ export default function ContactCard() {
                 <div className="flex-1">
                   <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">CALL US</p>
                   <p className="text-gray-800 text-sm font-medium">
-                    +1 (555) ECO-SOLV (326-7658)
+                    +1 (555) (326-7658)
                   </p>
                 </div>
               </div>
@@ -88,7 +93,7 @@ export default function ContactCard() {
                 <div className="flex-1">
                   <p className="text-xs text-gray-500 font-semibold tracking-wider mb-1">EMAIL US</p>
                   <p className="text-gray-800 text-sm font-medium">
-                    hello@ecosolve.com
+                    samrudhi@gmail.com
                   </p>
                 </div>
               </div>

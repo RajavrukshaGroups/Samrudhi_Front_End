@@ -11,7 +11,6 @@ import ServicesSection from "../../components/services-atm-cards/servicesSection
 import AboutCompany from "../../components/about-company/about-company";
 import CommitmentExcellence from "../../components/commitment-excelence/commitment-excelence.jsx";
 import InnovationFaces from "../../components/teamMember/innovation_faces.tsx";
-import SamrudhiAboutUs from "../../components/samrudhi-aboutus/samrudhi-aboutus.tsx"
 
 
 
@@ -74,7 +73,6 @@ const AboutPage = () => {
         <About text={aboutText} image={bg} />
         {/* <Animation /> */}
         <AboutCompany />
-        <SamrudhiAboutUs />
         <ServicesSection />
         <CommitmentExcellence />
         <InnovationFaces />

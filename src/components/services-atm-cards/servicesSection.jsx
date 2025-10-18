@@ -114,9 +114,14 @@ const ServicesSection = () => {
       {/* <div className="absolute inset-0 -z-10 bg-gradient-to-r from-green-100 to-emerald-300"></div> */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white to-white"></div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
+        {/* <h2 className="text-center font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
           Investor-Centric Approach
-        </h2>
+        </h2> */}
+        <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#054b16] md:text-[60px]">Investor-Centric </span>
+  <span className="text-green-500 md:text-[60px]">Approach</span>
+</h2>
+
          <p className="font-normal pl-8 text-black">At Samrudhi, we recognize that our investors are pivotal to our success. We are
 committed to fostering transparent, mutually beneficial relationships by providing clear
 communication, tailored investment opportunities, and consistent returns</p>

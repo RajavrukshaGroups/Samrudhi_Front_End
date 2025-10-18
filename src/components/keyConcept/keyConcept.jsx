@@ -62,9 +62,14 @@ const KeyConcept = () => {
 
           <div className="max-w-2xl w-full ml-8 lg:ml-12">
             {/* Heading */}
-            <h1 className="project-subtitle-keyConcept  text-4xl lg:text-5xl xl:text-6xl font-light  mb-12 lg:mb-16 leading-tight">
+            {/* <h1 className="project-subtitle-keyConcept  text-4xl lg:text-5xl xl:text-6xl font-light  mb-12 lg:mb-16 leading-tight">
               Empowering Values for a Better Future
-            </h1>
+            </h1> */}
+            <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
+  <span className="text-[#054b16] md:text-[40px]">Empowering Values</span>{' '}
+  <span className="text-green-500 md:text-[40px]">for a Better Future</span>
+</h1>
+
             {/* Features Grid */}
             <div className="relative bg-gradient-to-br from-green-200 to-emerald-50 rounded-2xl p-8 lg:p-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
@@ -73,7 +78,7 @@ const KeyConcept = () => {
                   <div
                     key={index}
                     className="group cursor-pointer transition-all duration-300 hover:translate-x-2 relative z-10"
-                  >
+                  > 
                     <div className="space-y-3">
                       <span className="text-green-900 text-sm font-medium tracking-wide transition-all duration-300 group-hover:text-blue-600 group-hover:scale-110 inline-block">
                         {feature.number}

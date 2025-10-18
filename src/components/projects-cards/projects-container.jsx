@@ -34,13 +34,19 @@ export default function AlumniHero() {
         {/* <div className="text-[#EDEFEF] tracking-widest uppercase text-sm mb-3">
           Featured Work
         </div> */}
-        <h1 className="text-5xl font-extrabold text-green-900 leading-tight mb-5">
+        {/* <h1 className="text-5xl font-extrabold text-green-900 leading-tight mb-5">
           <span className="text-6xl"></span>
           Shaping Communities<br />
            Through Our Current  <br />
           Projects 
           <span className="text-6xl"></span>
-        </h1>
+        </h1> */}
+        <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
+  <span className="text-[#054b16] md:text-[60px]">Shaping Communities</span><br />
+  <span className="text-green-500 md:text-[60px]">Through Our Current</span><br />
+  <span className="text-[#054b16] md:text-[60px]">Projects</span>
+</h1>
+
         <p className="text-green-900  text-1xl mb-6 max-w-xl">
           Samrudhi is dedicated to playing a pivotal role in building and nurturing sustainable communities
         </p>
@@ -91,11 +97,11 @@ export default function AlumniHero() {
       {/* Mobile graduates */}
       <div className="lg:hidden flex justify-center items-center absolute right-0 bottom-0 left-0 z-10">
         {/* Place a single grad or stack for mobile below */}
-        <img
+        {/* <img
           src={HomeImg}
           alt="Graduate"
-          className="w-32 drop-shadow-xl"
-          />
+          className="w-32 mt-10 drop-shadow-xl"
+          /> */}
       </div>
 
       {/* Dots on right */}

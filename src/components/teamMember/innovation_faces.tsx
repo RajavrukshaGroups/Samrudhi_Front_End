@@ -52,9 +52,13 @@ const Index = () => {
       <section className=" py-20 px-4 text-center overflow-hidden">
         {/* <div className="absolute inset-0 bg-[image:var(--gradient-hero)] opacity-10"></div> */}
         {/* <div className="relative max-w-4xl mx-auto"> */}
-          <h1 className="text-4xl relative md:text-6xl font-bold text-foreground mb-4 tracking-tight">
+          {/* <h1 className="text-4xl relative md:text-6xl font-bold text-foreground mb-4 tracking-tight">
             Faces of Innovation
-          </h1>
+          </h1> */}
+          <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
+  <span className="text-[#054b16] md:text-[60px]">Faces of </span>
+  <span className="text-green-500 md:text-[60px]">Innovation</span>
+</h1>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full"></div>
         {/* </div> */}
       </section>

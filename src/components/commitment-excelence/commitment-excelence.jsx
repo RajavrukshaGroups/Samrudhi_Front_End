@@ -8,9 +8,14 @@ export default function TrustSection() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-16">
         {/* Left: Headings & Features */}
         <div className="flex-1 w-full max-w-2xl animate-fade-in-right">
-          <h2 className="text-black text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-[length:200%_auto] bg-clip-text text-transparent bg-text-gradient animate-gradient-shift">
+          {/* <h2 className="text-black text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-[length:200%_auto] bg-clip-text text-transparent bg-text-gradient animate-gradient-shift">
             Our Commitment to Excellence
-          </h2>
+          </h2> */}
+          <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#054b16] md:text-[60px]">Our Commitment to </span>
+  <span className="text-green-500 md:text-[60px]">Excellence</span>
+</h2>
+
           
           <div className="mt-10 space-y-6 lg:space-y-8">
             {/* Feature 01 */}
