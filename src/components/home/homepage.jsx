@@ -65,13 +65,13 @@ const HeroSection = () => {
           {titles[visibleTitle]}
         </h1> */}
         <h1
-  style={{ fontFamily: "Arial, Helvetica, sans-serif" }}
-  className={`text-5xl font-bold text-white leading-tight transition-opacity duration-500 ease-in-out ${
-    fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
-  } transform w-full`}
->
-  {titles[visibleTitle]}
-</h1>
+          style={{ fontFamily: "Arial, Helvetica, sans-serif" }}
+          className={`text-5xl font-bold text-white leading-tight transition-opacity duration-500 ease-in-out ${
+            fade ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+          } transform w-full`}
+        >
+          {titles[visibleTitle]}
+        </h1>
 
         <div className="mt-8 flex items-center gap-6">
           <a

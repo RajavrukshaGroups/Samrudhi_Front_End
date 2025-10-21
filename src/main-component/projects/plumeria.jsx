@@ -13,6 +13,11 @@ import plumeria_3 from "../../components/assets/plumeria_3.webp";
 import plumeria_4 from "../../components/assets/plumeria_4.webp";
 import plumeria_5 from "../../components/assets/plumeria_5.webp";
 import Navbar from "../../components/navbar/navbar";
+import Hero from "../../components/Aarica-landingPage/Hero.tsx";
+import Facilities from "../../components/Aarica-landingPage/Facilities.tsx";
+import ProjectHighlights from "../../components/Aarica-landingPage/Highlights.tsx";
+import NearByDevelopments from "../../components/Aarica-landingPage/NearbyDevelopments.tsx";
+
 import { Helmet } from "react-helmet";
 import "../AboutPage/loading.css";
 import "./pro-plumeria.css";
@@ -44,7 +49,7 @@ const PlumeriaMain = () => {
   const ogTitle = "Plumeria - Real Estate Excellence";
   const ogDescription =
     "Explore Plumeria, an exquisite residential plots project that promises a tranquil lifestyle. Ideal for nature lovers and investment opportunities.";
-  const ogUrl = "https://rajavrukshagroup.in/sylvan-retreat";
+  const ogUrl = "https://thesamrudhi.com/sylvan-retreat";
 
   const [counts, setCounts] = useState({
     acres: 3,
@@ -116,6 +121,10 @@ const PlumeriaMain = () => {
           bgImg1={bgImg1}
           bgImg2={bgImg2}
         />
+        <Hero/>
+        <Facilities/>
+        <ProjectHighlights/>
+        <NearByDevelopments/>
         <div>
           <h1 className="project-name">
             <FadeContent
