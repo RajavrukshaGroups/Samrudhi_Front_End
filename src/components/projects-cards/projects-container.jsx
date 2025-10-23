@@ -40,12 +40,12 @@ export default function AlumniHero() {
            Through Our Current  <br />
           Projects 
           <span className="text-6xl"></span>
-        </h1> */}
+        </h1> */}            
         <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-  <span className="text-[#054b16] md:text-[60px]">Shaping Communities</span><br />
-  <span className="text-green-500 md:text-[60px]">Through Our Current</span><br />
-  <span className="text-[#054b16] md:text-[60px]">Projects</span>
-</h1>
+          <span className="text-[#054b16] md:text-[60px]">Shaping Communities</span><br />
+          <span className="text-green-500 md:text-[60px]">Through Our Current</span><br />
+          <span className="text-[#054b16] md:text-[60px]">Projects</span>
+        </h1>
 
         <p className="text-green-900  text-1xl mb-6 max-w-xl">
           Samrudhi is dedicated to playing a pivotal role in building and nurturing sustainable communities
@@ -76,7 +76,7 @@ export default function AlumniHero() {
   <img
     src="/graduation_female_blue.png"
     alt="Graduate"
-    className="relative w-64 left-[-70px] z-20"
+    className="relative w-64 yhnleft-[-70px] z-20"
     style={{ top: "120px", zIndex: 20 }}
     />
     <img

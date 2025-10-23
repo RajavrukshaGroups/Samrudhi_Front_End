@@ -12,11 +12,9 @@ export default function TrustSection() {
             Our Commitment to Excellence
           </h2> */}
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-  <span className="text-[#054b16] md:text-[60px]">Our Commitment to </span>
-  <span className="text-green-500 md:text-[60px]">Excellence</span>
-</h2>
-
-          
+            <span className="text-[#054b16] md:text-[60px]">Our Commitment to </span>
+            <span className="text-green-500 md:text-[60px]">Excellence</span>
+          </h2>
           <div className="mt-10 space-y-6 lg:space-y-8">
             {/* Feature 01 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
@@ -34,7 +32,6 @@ export default function TrustSection() {
                 </p>
               </div>
             </div>
-
             {/* Feature 02 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
@@ -51,7 +48,6 @@ export default function TrustSection() {
                 </p>
               </div>
             </div>
-
             {/* Feature 03 */}
             <div className="group transition-all duration-300 hover:scale-[1.02]">
               <div className="flex items-baseline gap-3 mb-3">
@@ -83,7 +79,6 @@ export default function TrustSection() {
                 className="relative rounded-2xl w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover object-center shadow-lg"
               />
             </div>
-
             {/* Floating Stats - Desktop */}
             <div className="hidden lg:block">
               <div className="absolute -left-8 top-20 bg-white rounded-xl shadow-lg px-4 py-3 border-2 border-emerald-200 animate-fade-in-up backdrop-blur-sm bg-white/95">
@@ -96,7 +91,6 @@ export default function TrustSection() {
                 <span className="text-cyan-600 font-bold text-sm">⚡ Competitive edge</span>
               </div>
             </div>
-
             {/* Floating Stats - Mobile */}
             <div className="lg:hidden flex flex-col gap-3 mt-6">
               <div className="bg-white/95 rounded-xl shadow-md px-4 py-3 border-2 border-emerald-200 backdrop-blur-sm">

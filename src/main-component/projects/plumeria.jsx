@@ -113,14 +113,14 @@ const PlumeriaMain = () => {
           </div>
         }
       >
-        <PageTitle
+        {/* <PageTitle
           pagesub={"Project Details"}
           pageImg={bg}
           PageTitle="Plumeria"
           plumeriaSub="community where life blossoms"
           bgImg1={bgImg1}
           bgImg2={bgImg2}
-        />
+        /> */}
         <Hero/>
         <Facilities/>
         <ProjectHighlights/>

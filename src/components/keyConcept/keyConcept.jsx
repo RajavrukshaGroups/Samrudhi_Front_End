@@ -2,6 +2,7 @@
 import AboutImg from "../../components/assets/modernhome.jpg";
 
 const KeyConcept = () => {
+
   const features = [
     {
       number: "01.",
@@ -46,7 +47,7 @@ const KeyConcept = () => {
   ]
   
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#ffffff] via-[#ffffff] to-[#ffffff] ">
+    <main className="min-h bg-gradient-to-br from-[#ffffff] via-[#ffffff] to-[#ffffff] ">
       <div className="grid lg:grid-cols-2 min-h-[450px]">
         {/* Left Section */}
         <div className="relative flex items-center justify-center p-8 lg:p-16">
@@ -66,9 +67,9 @@ const KeyConcept = () => {
               Empowering Values for a Better Future
             </h1> */}
             <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-  <span className="text-[#054b16] md:text-[40px]">Empowering Values</span>{' '}
-  <span className="text-green-500 md:text-[40px]">for a Better Future</span>
-</h1>
+            <span className="text-[#054b16] md:text-[40px]">Empowering Values</span>{' '}
+            <span className="text-green-500 md:text-[40px]">for a Better Future</span>
+          </h1>
 
             {/* Features Grid */}
             <div className="relative bg-gradient-to-br from-green-200 to-emerald-50 rounded-2xl p-8 lg:p-12">
@@ -122,22 +123,21 @@ const KeyConcept = () => {
                     </div>
                   </div>
                 ))}
-
               </div>
             </div>
           </div>
         </div>
         {/* Right Section - Image */}
-        <div className="relative h-[400px] lg:h-auto overflow-hidden group">
+        <div className="relative h-[200px] lg:h-auto overflow-hidden group">
           <div className="absolute inset-0 transition-transform duration-700 group-hover:scale-105 ">
-<img
-    src={AboutImg}
-    alt="Modern living space with balcony featuring two people relaxing"
-    className="w-full h-full object-cover object-center pr-11 border-r pt-5"
-  />
+          <img
+              src={AboutImg}
+              alt="Modern living space with balcony featuring two people relaxing"
+              className="w-full h-full md:h-[680px] object-cover object-center pr-11 border-r pt-24"
+            />
           </div>
           {/* Overlay on hover */}
-          <div className="absolute inset-0 bg-teal-900/0 transition-all duration-500 group-hover:bg-teal-900/10" />
+          <div className="absolute inset-0 bg-teal-900/0 transition-all duration-500 " />
         </div>
       </div>
     </main>

@@ -14,12 +14,12 @@ const OngoingProjects = () => {
     <div className="mt-0 responsive">
       <div className="flex flex-col overflow-hidden animate-threeD-container">
         {/* <h1 className=" text-1xl font-bold project-subtitle md:text-6xl justify-center flex ">Our Ongoing Projects</h1> */}
-    <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light   leading-tight text-center">
-  <span className="text-[#054b16] md:text-[50px]">Our Ongoing</span>{' '}
-  <span className="text-green-500 md:text-[50px]">Projects</span>
-</h1>
-
+        <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light  leading-tight text-center">
+          <span className="text-[#054b16] md:text-[50px]">Our Ongoing</span>{' '}
+          <span className="text-green-500 md:text-[50px]">Projects</span>
+        </h1>
       </div>
+
       <div className="projects-wrapper">
         <div className="project-card">
           {/* <div className="project-image-container">
@@ -54,11 +54,16 @@ const OngoingProjects = () => {
             >
               <h2 className="project-subtitle  text-green-900">Sylvan Retreat</h2>
             </FadeContent>
-            <p className="project-description">
+            {/* <p className="project-description">
               Farmland is not just a dream; it's a sound financial investment
               with growing demand in the market.
+            </p> */}
+            <p className="project-description">
+              Farmland is not just a dream; <br />
+              it's a sound financial investment <br />
+              with growing demand in the market.
             </p>
-            <Link to="/sylvan-retreat">
+            <Link to="/projects">
               <button className="project-button">
                 <MovingBorderDemo>
                   <ShinyText text="Read More" disabled={false} speed={3} />
@@ -103,7 +108,7 @@ const OngoingProjects = () => {
               An exclusive premium residential project designed for peaceful living with
               modern amenities.
             </p>
-            <Link to="/plumeria">
+            <Link to="/projects">
               <button className="project-button">
                 <MovingBorderDemo>
                   <ShinyText text="Read More" disabled={false} speed={3} />
@@ -148,7 +153,7 @@ const OngoingProjects = () => {
             <p className="project-description">
              Defence Habitat makes your real estate dreams a reality with trusted experience and services tailored to your needs.
             </p>
-            <Link to="/dhs-landingpage">
+            <Link to="/projects">
               <button className="project-button">
                 <MovingBorderDemo>
                   <ShinyText text="Read More" disabled={false} speed={3} />

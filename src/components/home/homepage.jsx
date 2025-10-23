@@ -9,12 +9,12 @@ const titles = [
       PROSPEROUS TOMORROW
     </span>
   </>,
-  <>
-    GROW YOUR WEALTH STEADILY{" "}
-    <span className="text-yellow-300 border-b-4 border-yellow-300">
-      WITH LAND INVESTMENTS
-    </span>
-  </>,
+  // <>
+  //   GROW YOUR WEALTH STEADILY{" "}
+  //   <span className="text-yellow-300 border-b-4 border-yellow-300">
+  //     WITH LAND INVESTMENTS
+  //   </span>
+  // </>,
 ];
 
 const HeroSection = () => {
