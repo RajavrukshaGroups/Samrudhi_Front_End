@@ -40,6 +40,7 @@ const HeroSection = () => {
   return (
     <>
     <Navbar/>
+
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
@@ -49,7 +50,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline >
-          <source src={'https://res.cloudinary.com/den0iz8zn/video/upload/v1760685081/banner_video_compressed_ckpm1b.mp4'} type="video/mp4" />
+          <source src={'https://res.cloudinary.com/den0iz8zn/video/upload/v1761287495/banner_video_new_compressed_w6cmwu.mp4'} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black/30"></div>
@@ -63,7 +64,7 @@ const HeroSection = () => {
           } transform w-full`}
         >
           {titles[visibleTitle]}
-        </h1> */}
+        </h1> */}            
         <h1
           style={{ fontFamily: "Arial, Helvetica, sans-serif" }}
           className={`text-5xl font-bold text-white leading-tight transition-opacity duration-500 ease-in-out ${

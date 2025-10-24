@@ -42,9 +42,9 @@ export default function AlumniHero() {
           <span className="text-6xl"></span>
         </h1> */}            
         <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
-          <span className="text-[#054b16] md:text-[60px]">Shaping Communities</span><br />
-          <span className="text-green-500 md:text-[60px]">Through Our Current</span><br />
-          <span className="text-[#054b16] md:text-[60px]">Projects</span>
+          <span className="text-[#054b16] md:text-[50px]">Shaping Communities</span><br />
+          <span className="text-green-500 md:text-[50px]">Through Our Current</span><br />
+          <span className="text-[#054b16] md:text-[50px]">Projects</span>
         </h1>
 
         <p className="text-green-900  text-1xl mb-6 max-w-xl">

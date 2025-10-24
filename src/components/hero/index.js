@@ -100,7 +100,7 @@ class Hero extends Component {
                       </div>
                     </div>
                     <VideoModal videoId="xz14d8sd7Nc" />
-                  </div> */}
+                  </div> */}                          
                 </div>
               </div>
             </div>
