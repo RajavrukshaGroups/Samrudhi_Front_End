@@ -102,13 +102,17 @@ const NearbyDevelopments = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2
+          {/* <h2
             className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight 
                        bg-gradient-to-r from-[#8B5E3C] via-[#4C392C] to-[#8B5E3C]
                        bg-clip-text text-transparent animate-gradient-shift"
           >
             Nearby <span className="text-[#4C392C]">Developments</span>
-          </h2>
+          </h2> */}
+             <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-[#5C4033]">
+  <span className="text-[#4C392C] md:text-[50px] font-semibold">Nearby</span>{' '}
+  <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Developments</span>
+</h1>
           <p className="text-lg text-[#5C4033] max-w-2xl mx-auto mt-4 font-medium">
             Strategically located with excellent connectivity to key areas
           </p>

@@ -58,7 +58,6 @@ const RoutesWithLoader = () => {
       )} */}                  
       <Routes>
         {/* <Route path="/toatify" element={<ToastContainer />} /> */}
-        
         <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />

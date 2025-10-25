@@ -30,7 +30,7 @@ const Facilities = () => {
           {/* <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
               <span className="text-[#4C392C] md:text-[50px]">Premium</span>{' '}
               <span className="text-[#8F5D38] md:text-[50px]">Facilities</span>
-          </h1> */}
+          </h1> */}                          
           <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-[#5C4033]">
   <span className="text-[#4C392C] md:text-[50px] font-semibold">Premium</span>{' '}
   <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Facilities</span>

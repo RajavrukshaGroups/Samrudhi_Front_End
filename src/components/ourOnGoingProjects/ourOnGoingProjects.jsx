@@ -15,7 +15,7 @@ const OngoingProjects = () => {
       <div className="flex flex-col overflow-hidden animate-threeD-container">
         {/* <h1 className=" text-1xl font-bold project-subtitle md:text-6xl justify-center flex ">Our Ongoing Projects</h1> */}
         <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light  leading-tight text-center">
-          <span className="text-[#054b16] md:text-[50px]">Our Ongoing</span>{' '}
+          {/* <span className="text-[#054b16] md:text-[50px]">Our Ongoing</span>{' '} */}
           <span className="text-green-500 md:text-[50px]">Projects</span>
         </h1>
       </div>

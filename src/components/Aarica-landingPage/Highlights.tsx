@@ -31,9 +31,13 @@ const Highlights = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* LEFT SIDE */}
           <div className="animate-fade-in-up text-[#4C392C]">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+            {/* <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
               Project <span className="text-[#8F5D38]">Highlights</span>
-            </h2>
+            </h2> */}
+               <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-[#5C4033]">
+  <span className="text-[#4C392C] md:text-[50px] font-semibold">Project</span>{' '}
+  <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Highlights</span>
+</h1>
 
             <div className="space-y-4">
               <div className="flex items-start gap-3">

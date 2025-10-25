@@ -126,7 +126,7 @@ const PlumeriaMain = () => {
         <ProjectHighlights/>
         <NearByDevelopments/>
         <div>
-          <h1 className="project-name">
+          {/* <h1 className="project-name">
             <FadeContent
               blur={true}
               duration={1000}
@@ -135,7 +135,19 @@ const PlumeriaMain = () => {
               >
               MILESTONES WE ARE PROUD OF
             </FadeContent>
-          </h1>
+          </h1> */}
+           <FadeContent
+        blur={true}
+        duration={900}
+        easing="ease-out"
+        initialOpacity={0} >
+        {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
+     <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#4C392C] md:text-[50px]">MILESTONES WE </span>{' '}
+  <span className="text-[#8B5E3C] md:text-[50px]">ARE PROUD OF</span>
+</h2>
+
+      </FadeContent>
         </div>
 
       <div className="plumeria-icons-overview">
@@ -165,16 +177,29 @@ const PlumeriaMain = () => {
 
 
         <div>
-          <h1 className="project-name">
+          {/* <h1 className="project-name">
             <FadeContent
               blur={true}
               duration={1000}
               easing="ease-out"
               initialOpacity={0}
             >
-              Exclusive Premium Plots
+               Premium Plots
             </FadeContent>
-          </h1>
+          </h1> */}
+
+           <FadeContent
+        blur={true}
+        duration={900}
+        easing="ease-out"
+        initialOpacity={0} >
+        {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
+     <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#4C392C] md:text-[50px]">Exclusive </span>{' '}
+  <span className="text-[#8B5E3C] md:text-[50px]">Premium Plots</span>
+</h2>
+
+      </FadeContent>
         </div>
         <div className="project-details">
           <div className="plumeria-layout">
