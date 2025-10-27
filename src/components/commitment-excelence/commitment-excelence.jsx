@@ -12,8 +12,8 @@ export default function TrustSection() {
             Our Commitment to Excellence
           </h2> */}
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
-            <span className="text-[#054b16] md:text-[60px]">Our Commitment to </span>
-            <span className="text-green-500 md:text-[60px]">Excellence</span>
+            <span className="text-[#054b16] md:text-[50px]">Our Commitment to </span>
+            <span className="text-green-500 md:text-[50px]">Excellence</span>
           </h2>
           <div className="mt-10 space-y-6 lg:space-y-8">
             {/* Feature 01 */}
@@ -71,7 +71,7 @@ export default function TrustSection() {
         <div className="flex-1 w-full flex justify-center items-center animate-fade-in-up">
           <div className="relative w-full max-w-md lg:max-w-lg lg:mt-56">
             {/* Image Container */}
-            <div className=" relative rounded-3xl bg-gradient-to-br from-emerald-200/60 via-teal-200/50 to-cyan-200/60 p-3 sm:p-4 shadow-xl overflow-hidden">
+            <div className=" relative rounded-3xl bg-gradient-to-br from-emerald-200/60 via-teal-200/50 to-cyan-200/60 p-1 sm:p-4 shadow-xl overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/20 to-cyan-400/20 animate-pulse-slow"></div>
               <img
                 src={CommitmentImg}
