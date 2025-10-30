@@ -81,12 +81,12 @@ const KeyConcept = () => {
                     className="group cursor-pointer transition-all duration-300 hover:translate-x-2 relative z-10"
                   > 
                     <div className="space-y-3">
-                      <span className="text-green-900 text-sm font-medium tracking-wide transition-all duration-300 group-hover:text-blue-600 group-hover:scale-110 inline-block">
+                      <span className="text-green-900  text-sm font-medium tracking-wide transition-all duration-300 group-hover:text-blue-600 group-hover:scale-110 inline-block">
                         {feature.number}
                       </span>
                       <div className="transition-all duration-300 group-hover:translate-x-1">
                         <div className="relative">
-                          <h3 className="text-green-900 font-medium text-base leading-snug relative z-20 group-hover:text-black">
+                          <h3 className="text-green-900 font-[Arial,Helvetica,sans-serif]  font-medium text-base leading-snug relative z-20 group-hover:text-black">
                             {feature.title}
                           </h3>
                           {/* Enhanced Chat-style Popup for Subtitle */}
@@ -133,7 +133,7 @@ const KeyConcept = () => {
           <img
               src={AboutImg}
               alt="Modern living space with balcony featuring two people relaxing"
-              className="w-full h-full md:h-[680px] object-cover object-center pr-11 border-r pt-24"
+              className="w-full h-full md:h-[714px] object-cover object-center pr-11 border-r pt-24"
             />
           </div>
           {/* Overlay on hover */}

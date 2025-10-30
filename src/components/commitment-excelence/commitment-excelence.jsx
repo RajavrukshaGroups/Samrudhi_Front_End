@@ -22,7 +22,7 @@ export default function TrustSection() {
                 <span className="text-emerald-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-emerald-600">
                   01
                 </span>
-                <h3 className="font-bold text-xl sm:text-2xl text-gray-900">
+                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
                   Ethical Practices and Compliance
                 </h3>
               </div>
@@ -38,7 +38,7 @@ export default function TrustSection() {
                 <span className="text-teal-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-teal-600">
                   02
                 </span>
-                <h3 className="font-bold text-xl sm:text-2xl text-gray-900">
+                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
                   Continuous Professional Development
                 </h3>
               </div>
@@ -54,7 +54,7 @@ export default function TrustSection() {
                 <span className="text-cyan-500/60 font-bold text-xl sm:text-2xl transition-colors duration-300 group-hover:text-cyan-600">
                   03
                 </span>
-                <h3 className="font-bold text-xl sm:text-2xl text-gray-900">
+                <h3 className="font-bold text-xl font-[Arial,Helvetica,sans-serif] sm:text-2xl text-gray-900">
                   Advanced Technology Integration
                 </h3>
               </div>

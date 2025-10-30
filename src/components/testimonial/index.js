@@ -86,7 +86,7 @@ export default function Testimonials() {
 
       <div className="container relative z-10 mx-auto px-4">
         {/* Header */}
-        <div className="mx-auto mb-16 max-w-4xl p-8 text-center">
+        <div className="mx-auto mb-1 max-w-4xl p-8 text-center">
               <p className="mb-4 text-sm font-medium uppercase tracking-wider text-green-900">Hear From</p>
               {/* <h2 className="mb-6 text-5xl font-bold project-subtitle md:text-6xl text-green-900">Our Happy Customers </h2> */}
           <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
@@ -118,7 +118,7 @@ export default function Testimonials() {
               } p-8 backdrop-blur-sm`}
             >
               {/* Avatar */}
-              <div className="absolute -top-10 left-8">
+              {/* <div className="absolute -top-10 left-8">
                 <div className="h-20 w-20 overflow-hidden rounded-full border-4 border-white/30 bg-gray-600">
                   <img
                     src={testimonial.image || "/placeholder.svg"}
@@ -126,14 +126,14 @@ export default function Testimonials() {
                     className="h-full w-full object-cover"
                   />
                 </div>
-              </div>
+              </div> */}
 
               {/* Content */}
               <div className="mt-12 flex flex-1 flex-col">
                 <p className="mb-8 flex-1 text-sm leading-relaxed text-white/90">{testimonial.text}</p>
                 {/* Author */}
                 <div>
-                  <h3 className="mb-1 text-xl font-bold text-[#d4a843]">{testimonial.name}</h3>
+                  <h3 className="mb-1 text-xl font-bold text-[#d4a843] font-[Arial,Helvetica,sans-serif]">{testimonial.name}</h3>
                   <p className="text-sm text-white/70">{testimonial.role}</p>
                 </div>
               </div>

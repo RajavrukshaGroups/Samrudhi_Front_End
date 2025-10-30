@@ -158,7 +158,7 @@ export default function ServiceSection() {
                   easing="ease-out"
                   initialOpacity={0}
                 >
-                  <h3 className="text-lg font-bold text-gray-800 mb-3 leading-tight">
+                  <h3 className="text-lg font-bold font-[Arial,Helvetica,sans-serif] text-gray-800 mb-3 leading-tight">
                     {service.title}
                   </h3>
                 </FadeContent>

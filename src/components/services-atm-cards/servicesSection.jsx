@@ -39,7 +39,7 @@ const investorCards = [
   {
     id: 2,
     icon: "building",
-    title: "Tailored Investment Opportunities",
+    title: "Tailored Investment Opportunity",
     description: "Understanding that each investor has unique goals, we offer customized investment solutions, including joint ventures and fractional ownership models. This flexibility allows investors to choose opportunities that align with their risk tolerance and return expectations.",
     features: [
       "Property Offerings & Customer Service"
@@ -51,7 +51,7 @@ const investorCards = [
     title: "Competitive Financial Terms",
     description: "We offer attractive returns on investment, clearly outlining timelines and exit strategies. Our financial terms are structured to align with market expectations, providing investors with confidence in the profitability of their investments.",
     features: [
-      " Pricing & Deal Terms",
+      " Pricing, Deal Terms & Conditions",
     ]
   },
   {
@@ -68,8 +68,15 @@ const investorCards = [
 const InvestorCard = ({ card, onReadMore }) => (
   <article className="w-full lg:min-w-[280px] lg:flex-1 rounded-[28px] bg-[#18473F] p-6 lg:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.25)] ring-1 ring-black/10">
     <div className="flex items-center justify-center">{icons[card.icon]}</div>
-    <h3 className="mt-4 lg:mt-6 text-center text-xl lg:text-2xl font-extrabold leading-snug text-[#F3C64E]">{card.title}</h3>
-    
+    {/* <h3 className="mt-4 lg:mt-6 text-center text-xl md:text-sm lg:text-2xl font-extrabold leading-snug text-[#F3C64E] font-[Arial,Helvetica,sans-serif]">{card.title}</h3> */}
+    {/* <h3 className="mt-4 lg:mt-6 text-center text-xl md:text-sm lg:text-2xl font-extrabold leading-snug text-[#F3C64E] font-[Arial,Helvetica,sans-serif]">
+  {card.title}
+</h3> */}
+<h5 className="mt-4 lg:mt-6 text-center text-base md:text-lg lg:text-xl font-extrabold leading-snug text-[#F3C64E] font-[Arial,Helvetica,sans-serif]">
+  {card.title}
+</h5>
+
+
     {/* Features list with check boxes */}
     <div className="mt-4 lg:mt-6 space-y-3">
       {card.features?.map((feature, index) => (
@@ -77,7 +84,7 @@ const InvestorCard = ({ card, onReadMore }) => (
           <div className="flex-shrink-0 w-4 h-4 lg:w-5 lg:h-5 rounded-full bg-[#F3C64E] flex items-center justify-center mt-0.5">
             <Check className="w-2 h-2 lg:w-3 lg:h-3 text-[#18473F]" strokeWidth={3} />
           </div>
-          <span className="text-xs lg:text-sm text-white/90 leading-relaxed">
+          <span className="text-xs  lg:text-sm text-white/90 leading-relaxed">
             {feature}
           </span>
         </div>

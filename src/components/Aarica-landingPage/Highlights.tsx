@@ -35,9 +35,9 @@ const Highlights = () => {
               Project <span className="text-[#8F5D38]">Highlights</span>
             </h2> */}
                <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-[#5C4033]">
-  <span className="text-[#4C392C] md:text-[50px] font-semibold">Project</span>{' '}
-  <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Highlights</span>
-</h1>
+                <span className="text-[#4C392C] md:text-[50px] font-semibold">Project</span>{' '}
+                <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Highlights</span>
+              </h1>
 
             <div className="space-y-4">
               <div className="flex items-start gap-3">
@@ -94,7 +94,7 @@ const Highlights = () => {
                 <div className="w-12 h-12 mb-4 flex items-center justify-center rounded-xl bg-[#8F5D38]/10">
                   <highlight.icon className="w-6 h-6 text-[#8F5D38]" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-[#4C392C]">
+                <h3 className="font-semibold text-lg mb-2 text-[#4C392C] font-[Arial,Helvetica,sans-serif]">
                   {highlight.title}
                 </h3>
                 <p className="text-sm text-[#4C392C]/80">

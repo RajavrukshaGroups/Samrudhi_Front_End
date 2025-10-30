@@ -104,7 +104,7 @@ export default function ContactCard() {
                   <div className="bg-gray-100 rounded-lg p-2">
                     <FaClock className="text-gray-700" />
                   </div>
-                  <h3 className="text-gray-800 font-semibold text-sm">OPERATING HOURS</h3>
+                  <h3 className="text-gray-800 font-semibold text-sm font-[Arial,Helvetica,sans-serif]">OPERATING HOURS</h3>
                 </div>
                 <div className="text-gray-600 text-sm space-y-1">
                   <div className="flex justify-between">

@@ -35,7 +35,6 @@ const Facilities = () => {
   <span className="text-[#4C392C] md:text-[50px] font-semibold">Premium</span>{' '}
   <span className="text-[#8B5E3C] md:text-[50px] font-semibold">Facilities</span>
 </h1>
-
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Discover world-class amenities designed for modern living
           </p>
@@ -51,9 +50,13 @@ const Facilities = () => {
               <div className="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-primary/10">
                 <facility.icon className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="font-semibold text-foreground text-sm sm:text-base">
+              {/* <h3 className=" font-semibold bg-slate-300 text-foreground text-sm sm:text-base">
                 {facility.title}
-              </h3>
+              </h3> */}
+              <h3 className="font-semibold  text-foreground text-sm sm:text-base font-[Arial,Helvetica,sans-serif]">
+  {facility.title}
+</h3>
+
             </Card>
           ))}
         </div>

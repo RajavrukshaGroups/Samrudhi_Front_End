@@ -81,9 +81,9 @@ const LandingPage = () => {
 >
         <div className="absolute inset-0 bg-black bg-opacity-10 "></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <div className="bg-black/50 ">
+          <div className="bg-black/80  ">
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-gray-200">
+          <h1 className="text-4xl p-2 font-[Arial,Helvetica,sans-serif] md:text-6xl font-bold mb-6 leading-tight text-gray-200">
             Defence Habitat Society
           </h1>
           </div>
@@ -113,7 +113,7 @@ const LandingPage = () => {
       {/* About Section */}
       <section id="about" className="py-20 px-6 md:px-20 bg-gray-50 scroll-mt-16">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#18473F] relative">
+          <h2 className="text-4xl font-[Arial,Helvetica,sans-serif] font-bold text-center mb-12 text-[#18473F] relative">
             About Us
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-[#F3C64E] mt-2"></div>
           </h2>
@@ -150,7 +150,7 @@ const LandingPage = () => {
       {/* Location Section */}
       <section id="location" className="py-20 px-6 md:px-20 bg-white scroll-mt-16">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#18473F] relative">
+          <h2 className="text-4xl font-bold font-[Arial,Helvetica,sans-serif] text-center mb-12 text-[#18473F] relative">
             Location & Strategic Importance
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-[#F3C64E] mt-2"></div>
           </h2>
@@ -202,7 +202,7 @@ const LandingPage = () => {
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6 md:px-20 bg-gray-50 scroll-mt-16">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#18473F] relative">
+          <h2 className="text-4xl font-bold font-[Arial,Helvetica,sans-serif] text-center mb-12 text-[#18473F] relative">
             Our Ongoing Projects
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-[#F3C64E] mt-2"></div>
           </h2>
@@ -212,7 +212,7 @@ const LandingPage = () => {
               <div className="bg-[#18473F] text-white px-4 py-2 rounded-full text-sm font-bold inline-block mb-4">
                 PHASE 2 OPEN
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-[#18473F]">
+              <h3 className="text-2xl font-bold mb-4 font-[Arial,Helvetica,sans-serif] text-[#18473F]">
                 Defence Habitat Tapasihalli
               </h3>
               <div className="space-y-3 mb-6">
@@ -247,7 +247,7 @@ const LandingPage = () => {
               <div className="bg-[#18473F] text-white px-4 py-2 rounded-full text-sm font-bold inline-block mb-4">
                 BOOKING CLOSED
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-[#18473F]">
+              <h3 className="text-2xl font-bold mb-4 font-[Arial,Helvetica,sans-serif] text-[#18473F]">
                 Defence Habitat Marasandra
               </h3>
               <div className="space-y-3 mb-6">
@@ -280,7 +280,7 @@ const LandingPage = () => {
       {/* Latest News Section */}
       <section id="news" className="py-20 px-6 md:px-20 bg-white scroll-mt-16">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#18473F] relative">
+          <h2 className="text-4xl font-bold text-center font-[Arial,Helvetica,sans-serif] mb-12 text-[#18473F] relative">
             Latest News & Updates
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-[#F3C64E] mt-2"></div>
           </h2>
@@ -312,7 +312,7 @@ const LandingPage = () => {
       {/* CTA Section */}
       <section className="py-20 px-6 md:px-20 bg-[#ffffff] text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Join Our Community?</h2>
+          <h2 className="text-4xl font-bold mb-6 font-[Arial,Helvetica,sans-serif]">Ready to Join Our Community?</h2>
           <p className="text-xl mb-8 opacity-90">
             Become part of the Defence Habitat Society and secure your future with us.
           </p>
@@ -340,7 +340,7 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto px-6 md:px-20">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-white">Defence Habitat Society</h3>
+              <h3 className="text-2xl font-bold mb-4 text-white font-[Arial,Helvetica,sans-serif]">Defence Habitat Society</h3>
               <p className="text-gray-300">
                 Serving those who serve the nation. Building communities for our brave defence personnel.
               </p>
