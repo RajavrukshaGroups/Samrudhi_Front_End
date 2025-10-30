@@ -1,6 +1,7 @@
 "use client"
 
 import { ServiceCard } from "../../components/services-atm-cards/servicsCards"
+import "../../components/ourOnGoingProjects/ourOnGoingProjects.css";
 
 const ServicesSection = () => {
   return (
@@ -10,12 +11,15 @@ const ServicesSection = () => {
       <div class="absolute inset-0 -z-10 bg-gradient-to-r from-green-100 to-emerald-300"></div>
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         {/* Headline */}
-        <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
+        {/* <h2 class="text-center text-pretty font-extrabold tracking-tight text-[#0e3b01] leading-tight text-4xl sm:text-5xl lg:text-6xl">
          Investor-Centric Approach
-        </h2>
+        </h2> */}
+        <h2 className=" project-subtitle-keyConcept text-center font-light tracking-tight text-[#0e3b01] leading-tight text-5xl md:text-6xl lg:text-7xl mb-8">
+            Investor-Centric Approach
+          </h2>
         <p>At Samrudhi, we recognize that our investors are pivotal to our success. We are
-committed to fostering transparent, mutually beneficial relationships by providing clear
-communication, tailored investment opportunities, and consistent returns.</p>
+        committed to fostering transparent, mutually beneficial relationships by providing clear
+        communication, tailored investment opportunities, and consistent returns.</p>
         {/* Card tray (subtle rounded container behind cards) */}
         <div class="mt-8 sm:mt-10 rounded-[28px] border border-white/40 bg-white/10 p-3 sm:p-4">
           {/* Cards grid - Changed to flex for single row */}
@@ -33,7 +37,7 @@ communication, tailored investment opportunities, and consistent returns.</p>
               </h3>
               <p class="mt-4 text-center text-base leading-relaxed text-white/85">
                We prioritize transparency by offering regular updates on project progress, financial
-performance, and market trends.
+               performance, and market trends.
               </p>
               <div class="mt-8 flex justify-center">
                 <a href="#" class="inline-flex items-center rounded-full bg-[#F3C64E] px-6 py-3 font-semibold text-[#18473F] shadow hover:bg-[#e2b843] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F3C64E]">

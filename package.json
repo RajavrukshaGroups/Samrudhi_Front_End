@@ -18,6 +18,7 @@
         "aos": "^2.3.4",
         "bad-words": "^4.0.0",
         "bootstrap": "^5.3.3",
+        "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "framer-motion": "^11.18.0",
         "lottie-web": "^5.12.2",
@@ -56,12 +57,6 @@
         "build": "npm install --legacy-peer-deps && react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
     },
     "browserslist": {
         "production": [

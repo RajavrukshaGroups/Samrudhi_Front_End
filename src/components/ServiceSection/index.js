@@ -104,7 +104,12 @@ export default function ServiceSection() {
         duration={900}
         easing="ease-out"
         initialOpacity={0} >
-        <h2 className="project-subtitle justify-center flex ">Our Services</h2>
+        {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
+     <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#054b16] md:text-[50px]">Our</span>{' '}
+  <span className="text-green-500 md:text-[50px]">Services</span>
+</h2>
+
       </FadeContent>
      
       <div ref={containerRef} className="w-full max-w-7xl mx-auto pt-3 pb-16 ">

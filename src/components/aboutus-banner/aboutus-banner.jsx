@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AboutUsImageModern from "../../components/assets/modernhomeaboutus.jpg";
+import "../../components/ourOnGoingProjects/ourOnGoingProjects.css";
+
 
 // Custom hook for window width
 function useWindowWidth() {
@@ -22,18 +24,20 @@ export default function SustainableEnergyHero() {
   const isDesktop = windowWidth === undefined || windowWidth >= 768;
 
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen bg-gradient-to-r px-6 md:px-12 pt-10 md:pt-16">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-between min-h-screen bg-gradient-to-r from-white to-emerald-100 px-6 md:px-12 pt-10 md:pt-28">
       {/* Left Content */}
-      <div className="max-w-lg space-y-6 ml-14 mt-5">
-        <h1 className="font-bold text-6xl leading-tight">
-          <span className="text-[#054b16]">We strive to uncover the </span>
-          <span className="text-green-500">perfect choice for you</span>
+      {/* <div className="max-w-lg space-y-6 ml-14 mt-5"> */}
+      <div className="max-w-4xl space-y-6 ml-14 mt-5">
+
+      
+        <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
+          <span className="text-[#054b16] md:text-[60px]">We strive to uncover the </span>
+          <span className="text-green-500 md:text-[60px]">perfect choice for you</span>
         </h1>
         <p className="text-gray-900 text-1xl mt-8">
           At Samrudhi, we are driven by a vision: to create exceptional spaces that inspire, endure, and elevate the way people live and invest. We are committed to shaping inspired living through visionary developments and bespoke real estate solutions.
         </p>
       </div>
-
       {/* Conditionally render image+svg only on desktop */}
       {isDesktop && (
         <div className="relative flex justify-center items-center w-[400px] h-[400px] mr-28">
@@ -53,7 +57,6 @@ export default function SustainableEnergyHero() {
           />
         </div>
       )}
-
       {/* Custom CSS for rotating animation */}
       <style jsx>{`
         .rotate-lines {

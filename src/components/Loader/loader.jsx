@@ -12,16 +12,7 @@ const Loader = ({ color = "#006400", secondaryColor = "#4fa94d", logo }) => {
       {!!logo ? (
         <div className="spinner-with-logo">
           <img src={RRPL_logo} alt="rrpl_logo" className="loader-logo" />
-          {/* <Oval
-            visible={true}
-            height="120"
-            width="120"
-            color={color}
-            secondaryColor={secondaryColor}
-            ariaLabel="oval-loading"
-            wrapperStyle={{ position: "absolute" }}
-            wrapperClass=""
-          /> */}
+        
           <Oval
             visible={true}
             height="120"
@@ -34,16 +25,7 @@ const Loader = ({ color = "#006400", secondaryColor = "#4fa94d", logo }) => {
           />
         </div>
       ) : (
-        // <Oval
-        //   visible={true}
-        //   height="80"
-        //   width="80"
-        //   color={color}
-        //   secondaryColor={secondaryColor}
-        //   ariaLabel="oval-loading"
-        //   wrapperStyle={{}}
-        //   wrapperClass=""
-        // />
+       
         <Oval
           visible={true}
           height="120"

@@ -5,8 +5,8 @@ import "./project.css";
 export default function AlumniHero() {
   return (
     <>
-    <div className="w-full h-36 bg-[#ffffff]"></div>
-    <section className="relative bg-[#ffffff] min-h-[450px] h-[420px] pt-[180px]  flex items-center">
+    <div className="w-full h-36 bg-gradient-to-r from-white to-emerald-100"></div>
+    <section className="relative bg-gradient-to-r from-white to-emerald-100 min-h-[450px] h-[420px] pt-[180px]  flex items-center">
       {/* Animated SVG Wave Lines */}
       <svg
         className="absolute left-0 top-0 w-full h-full z-0 pointer-events-none"
@@ -34,13 +34,19 @@ export default function AlumniHero() {
         {/* <div className="text-[#EDEFEF] tracking-widest uppercase text-sm mb-3">
           Featured Work
         </div> */}
-        <h1 className="text-5xl font-extrabold text-green-900 leading-tight mb-5">
+        {/* <h1 className="text-5xl font-extrabold text-green-900 leading-tight mb-5">
           <span className="text-6xl"></span>
           Shaping Communities<br />
            Through Our Current  <br />
           Projects 
           <span className="text-6xl"></span>
+        </h1> */}            
+        <h1 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight">
+          <span className="text-[#054b16] md:text-[50px]">Shaping Communities</span><br />
+          <span className="text-green-500 md:text-[50px]">Through Our Current</span><br />
+          <span className="text-[#054b16] md:text-[50px]">Projects</span>
         </h1>
+
         <p className="text-green-900  text-1xl mb-6 max-w-xl">
           Samrudhi is dedicated to playing a pivotal role in building and nurturing sustainable communities
         </p>
@@ -70,7 +76,7 @@ export default function AlumniHero() {
   <img
     src="/graduation_female_blue.png"
     alt="Graduate"
-    className="relative w-64 left-[-70px] z-20"
+    className="relative w-64 yhnleft-[-70px] z-20"
     style={{ top: "120px", zIndex: 20 }}
     />
     <img
@@ -91,11 +97,11 @@ export default function AlumniHero() {
       {/* Mobile graduates */}
       <div className="lg:hidden flex justify-center items-center absolute right-0 bottom-0 left-0 z-10">
         {/* Place a single grad or stack for mobile below */}
-        <img
-          src="/graduation_male.png"
+        {/* <img
+          src={HomeImg}
           alt="Graduate"
-          className="w-32 drop-shadow-xl"
-          />
+          className="w-32 mt-10 drop-shadow-xl"
+          /> */}
       </div>
 
       {/* Dots on right */}

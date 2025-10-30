@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Logo from "../../components/assets/Samrudhi.png";
 
 const Navbar = () => {
+  
   const location = useLocation();
   const currentPath = location.pathname;
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav items */}
-        <nav className="flex items-center gap-3 h-16 rounded-full bg-black/20 px-6">
+        <nav className="flex items-center gap-3 h-16 rounded-full bg-black/50 px-6">
           <a
             href="/"
             className={`font-medium px-4 py-2 transition hover:text-yellow-300 rounded-full ${
@@ -92,8 +93,19 @@ const Navbar = () => {
         </div>
 
         {/* Three Dots Menu Button on Right - Smaller size */}
-        <button
+        {/* <button
           className="p-2 text-white hover:text-yellow-300 transition-colors"
+          onClick={toggleMobileMenu}
+          aria-label="Toggle menu"
+        >
+          <div className="w-5 h-5 flex flex-col justify-between items-center">
+            <div className="w-1 h-1 bg-current rounded-full"></div>
+            <div className="w-1 h-1 bg-current rounded-full"></div>
+            <div className="w-1 h-1 bg-current rounded-full"></div>
+          </div>
+        </button> */}
+        <button
+          className="p-2 text-black hover:text-yellow-600 transition-colors"
           onClick={toggleMobileMenu}
           aria-label="Toggle menu"
         >

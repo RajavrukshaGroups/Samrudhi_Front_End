@@ -100,7 +100,7 @@ class Hero extends Component {
                       </div>
                     </div>
                     <VideoModal videoId="xz14d8sd7Nc" />
-                  </div> */}
+                  </div> */}                          
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ class Hero extends Component {
               <div
                 className="hero-slide-item"
                 style={{
-                  backgroundImage: `url(${'https://videos.pexels.com/video-files/4875313/4875313-uhd_1922_1440_30fps.mp4'})`,
+                  // backgroundImage: `url(${'https://videos.pexels.com/video-files/4875313/4875313-uhd_1922_1440_30fps.mp4'})`,
                 }}
               >
                 <div className="container">

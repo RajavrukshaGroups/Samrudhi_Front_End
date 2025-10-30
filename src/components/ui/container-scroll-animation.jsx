@@ -70,9 +70,9 @@ export const Card = ({ rotate, scale, children }) => {
         scale,
         marginTop: "-10rem",
       }}
-      className="syl-retreat max-w-3xl -mt-2 mx-auto h-[15rem] md:h-[22rem] sm:h-[400px] w-full border-4 border-[#6C6C6C] p-2 md:p-6 bg-[#222222] rounded-[30px]"
+      className="syl-retreat max-w-3xl -mt-2 mx-auto h-[15rem] md:h-[22rem] sm:h-[400px] w-full border-4 border-[#ffffff] p-2 md:p-6 bg-[#222222] rounded-[30px]"
     >
-      <div className=" h-full w-full overflow-hidden rounded-2xl bg-gray-100 dark:bg-zinc-900 md:rounded-2xl md:p-4 ">
+      <div className=" h-full w-full overflow-hidden rounded-2xl bg-white  md:rounded-2xl md:p-4 ">
         {children}
       </div>
     </motion.div>

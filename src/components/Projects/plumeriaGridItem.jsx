@@ -45,18 +45,19 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "Proximity to KIAL",
+    title: "35 minutes drive to Kempegowda International Airport",
+    // title: "We Care Multi Speciality Hospital",
     description:
-      "Doddaballapura is located close to the Kempegowda International Airport.",
+      "",
     header: (
       <img src={airport} className="w-full h-full object-cover rounded-xl" style={{ height: "150px" }}/>
     ),
     icon: <IconPlaneDeparture className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Good Connectivity",
+    title: "5 minutes drive to the STRR (Satellite Town Ring Road)",
     description:
-      "STRR,upcoming Metro rail connectivity and Sub-Urban Railway network.",
+      "",
     header: (
       <img
         src={metro}
@@ -67,9 +68,9 @@ const items = [
     icon: <IconBusStop className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Educational Institutions",
+    title: "Embassy International Riding School",
     description:
-      "Proximus to prestigious engineering and management institutions.",
+      "",
     header: (
       <img
         src={college}
@@ -80,7 +81,7 @@ const items = [
     icon: <IconSchool className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Growing ITER/SEZ Sector",
+    title: "35 mints drive to Doddaballapura Industrial Town & Dobbaspet Industrial Town",
     description:
       "Increases demand for residential properties in the region. For example, Foxconn is setting up an iPhone assembly plant (Project Elephant) in Karnataka, located in Doddaballapur.",
     header: (
@@ -93,8 +94,8 @@ const items = [
     icon: <IconReceiptRupee className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "KIADB Industrial Sectors",
-    description: "Doddaballapura is home to automobile,apparel park etc..",
+    title: "10 minutes to Foxconn IT Hub (Asia’s largest Apple manufacturing unit)",
+    description: "",
     header: (
       <img
         src={industry}
@@ -105,7 +106,7 @@ const items = [
     icon: <IconBuildingFactory2 className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Healthcare Services",
+    title: "We Care Multi Speciality Hospital",
     description: "enriched with hospitals providing excellent services",
     header: (
       <img

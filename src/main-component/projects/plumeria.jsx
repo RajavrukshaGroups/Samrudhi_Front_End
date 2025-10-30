@@ -1,3 +1,4 @@
+import { MapPin, Building2 } from "lucide-react";
 import React, { Fragment, Suspense, useEffect, useState } from "react";
 import Header from "../../components/header";
 import bg from "../../components/assets/plumeria3.webp";
@@ -12,6 +13,11 @@ import plumeria_3 from "../../components/assets/plumeria_3.webp";
 import plumeria_4 from "../../components/assets/plumeria_4.webp";
 import plumeria_5 from "../../components/assets/plumeria_5.webp";
 import Navbar from "../../components/navbar/navbar";
+import Hero from "../../components/Aarica-landingPage/Hero.tsx";
+import Facilities from "../../components/Aarica-landingPage/Facilities.tsx";
+import ProjectHighlights from "../../components/Aarica-landingPage/Highlights.tsx";
+import NearByDevelopments from "../../components/Aarica-landingPage/NearbyDevelopments.tsx";
+
 import { Helmet } from "react-helmet";
 import "../AboutPage/loading.css";
 import "./pro-plumeria.css";
@@ -31,7 +37,7 @@ const InfiniteMovingCardsDemo = React.lazy(() =>
 );
 
 const PlumeriaAmenities = React.lazy(() =>
-  import("../../components/Amenities/plumeria")
+  import("../../components/aarika_amenities/aarika_amenities")
 );
 const PlumeriaOveriew = React.lazy(() =>
   import("../../components/overview/plumeria/plumeriaOverview")
@@ -43,10 +49,10 @@ const PlumeriaMain = () => {
   const ogTitle = "Plumeria - Real Estate Excellence";
   const ogDescription =
     "Explore Plumeria, an exquisite residential plots project that promises a tranquil lifestyle. Ideal for nature lovers and investment opportunities.";
-  const ogUrl = "https://rajavrukshagroup.in/sylvan-retreat";
+  const ogUrl = "https://thesamrudhi.com/sylvan-retreat";
 
   const [counts, setCounts] = useState({
-    acres: 1,
+    acres: 3,
     plots: 1,
     amenities: 1,
   });
@@ -68,12 +74,12 @@ const PlumeriaMain = () => {
       const interval = setInterval(() => {
         start++;
         setCounts((prev) => ({ ...prev, [key]: start }));
-        if (start >= targetValue) clearInterval(interval);
+        if ( start >= targetValue ) clearInterval(interval);
       }, stepTime);
     };
 
-    incrementCounts("acres", 2);
-    incrementCounts("plots", 35);
+    incrementCounts("Years Of Excellence", 3);
+    incrementCounts("plots", 600);
     incrementCounts("amenities", 10);
   }, []);
 
@@ -107,41 +113,93 @@ const PlumeriaMain = () => {
           </div>
         }
       >
-        <PageTitle
+        {/* <PageTitle
           pagesub={"Project Details"}
           pageImg={bg}
           PageTitle="Plumeria"
           plumeriaSub="community where life blossoms"
           bgImg1={bgImg1}
           bgImg2={bgImg2}
-        />
-        <div className="plumeria-icons-overview">
-          {[
-            { img: land_overview, label: `${counts.acres} Acres` },
-            { img: plot_overview, label: `${counts.plots}+  Plots` },
-            { img: amenity_overview, label: `${counts.amenities}+  Amenities` },
-          ].map((item, index) => (
-            <div key={index} className="icon-box">
-              <img
-                src={item.img}
-                alt={item.label}
-                className="overview-main-icon"
-              />
-              <p className="icon-label">{item.label}</p>
-            </div>
-          ))}
-        </div>
+        /> */}
+        <Hero/>
+        <Facilities/>
+        <ProjectHighlights/>
+        <NearByDevelopments/>
         <div>
-          <h1 className="project-name">
+          {/* <h1 className="project-name">
+            <FadeContent
+              blur={true}
+              duration={1000}
+              easing="ease-out"
+              initialOpacity={0}
+              >
+              MILESTONES WE ARE PROUD OF
+            </FadeContent>
+          </h1> */}
+           <FadeContent
+        blur={true}
+        duration={900}
+        easing="ease-out"
+        initialOpacity={0} >
+        {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
+     <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#4C392C] md:text-[50px]">MILESTONES WE </span>{' '}
+  <span className="text-[#8B5E3C] md:text-[50px]">ARE PROUD OF</span>
+</h2>
+
+      </FadeContent>
+        </div>
+
+      <div className="plumeria-icons-overview">
+          {[
+            { img: land_overview, label: `${counts.acres} Years Of Excellence` },
+            { img: plot_overview, label: `${counts.plots}+ Happy Customers` },
+            { icon: MapPin, label: "Developed - Over 1.5 Mn Sqft" },
+            { icon: Building2, label: "Completed Projects - 5+" },
+          ].map((item, index) => {
+            const Icon = item.icon; // ✅ safely store the icon
+            return (
+              <div key={index} className="icon-box text-center">
+                {item.img ? (
+                  <img
+                    src={item.img}
+                    alt={item.label}
+                    className="overview-main-icon"
+                  />
+                ) : Icon ? (
+                  <Icon size={40} className="text-[#000000] mx-auto mb-2" />
+                ) : null}
+                <p className="icon-label">{item.label}</p>
+              </div>
+            );
+          })}
+        </div>
+
+
+        <div>
+          {/* <h1 className="project-name">
             <FadeContent
               blur={true}
               duration={1000}
               easing="ease-out"
               initialOpacity={0}
             >
-              Exclusive Premium Plots
+               Premium Plots
             </FadeContent>
-          </h1>
+          </h1> */}
+
+           <FadeContent
+        blur={true}
+        duration={900}
+        easing="ease-out"
+        initialOpacity={0} >
+        {/* <h2 className="project-subtitle justify-center flex ">Our Services</h2> */}
+     <h2 className="project-subtitle-keyConcept text-[5rem] lg:text-[6rem] xl:text-[7rem] font-light mb-12 lg:mb-16 leading-tight text-center">
+  <span className="text-[#4C392C] md:text-[50px]">Exclusive </span>{' '}
+  <span className="text-[#8B5E3C] md:text-[50px]">Premium Plots</span>
+</h2>
+
+      </FadeContent>
         </div>
         <div className="project-details">
           <div className="plumeria-layout">

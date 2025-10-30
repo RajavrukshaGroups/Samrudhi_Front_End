@@ -9,7 +9,9 @@ import Navbar from "../../components/navbar/navbar";
 import AboutUsBanner from "../../components/aboutus-banner/aboutus-banner";
 import ServicesSection from "../../components/services-atm-cards/servicesSection";
 import AboutCompany from "../../components/about-company/about-company";
-import CommitmentExcellence from "../../components/commitment-excelence/commitment-excelence.jsx"
+import CommitmentExcellence from "../../components/commitment-excelence/commitment-excelence.jsx";
+// import InnovationFaces from "../../components/teamMember/innovation_faces.tsx";
+import IntegratedTeam from "../../components/integratedTeam/integratedTeam.jsx";
 
 
 
@@ -74,6 +76,8 @@ const AboutPage = () => {
         <AboutCompany />
         <ServicesSection />
         <CommitmentExcellence />
+        {/* <InnovationFaces /> */}
+        <IntegratedTeam />
         <Footer />
       </Suspense>
     </Fragment>
